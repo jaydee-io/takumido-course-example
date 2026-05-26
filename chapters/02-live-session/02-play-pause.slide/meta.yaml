@@ -1,0 +1,5 @@
+schema_version: 1
+id: play-pause
+layout: takumido-columns
+duration_estimate: "4min"
+tags: [state-machine, navigation, sync]

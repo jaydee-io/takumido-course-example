@@ -1,0 +1,5 @@
+schema_version: 1
+id: live-session
+slides:
+  - dir: 01-roles.slide
+  - dir: 02-play-pause.slide

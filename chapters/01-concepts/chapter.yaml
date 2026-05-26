@@ -1,0 +1,5 @@
+schema_version: 1
+id: concepts
+slides:
+  - dir: 01-welcome.slide
+  - dir: 02-anatomy.slide

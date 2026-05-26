@@ -1,0 +1,11 @@
+schema_version: 1
+id: discover-takumido
+languages: [en, fr]
+default_layout: takumido-text
+duration_estimate: "15min"
+tags: [showcase, tutorial, getting-started]
+chapters:
+  - 01-concepts
+  - 02-live-session
+authors:
+  - name: "JayDee"

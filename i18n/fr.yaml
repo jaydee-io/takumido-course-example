@@ -1,0 +1,11 @@
+course:
+  title: "Découvrir TakumiDo"
+  description: "Une formation vitrine bilingue présentant les concepts de la plateforme TakumiDo et les mécanismes de session live."
+
+chapters:
+  concepts:
+    title: "Concepts TakumiDo"
+    description: "Structure d'un cours, slides et layouts"
+  live-session:
+    title: "Session live"
+    description: "Rôles formateur et apprenti, Play/Pause, synchronisation temps réel"

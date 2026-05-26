@@ -1,0 +1,5 @@
+schema_version: 1
+id: welcome
+layout: takumido-columns
+duration_estimate: "3min"
+tags: [introduction, overview]
