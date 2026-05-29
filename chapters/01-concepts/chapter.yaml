@@ -3,3 +3,4 @@ id: concepts
 slides:
   - dir: 01-welcome.slide
   - dir: 02-anatomy.slide
+  - dir: 03-custom-layout.slide

@@ -1,0 +1,5 @@
+schema_version: 1
+id: custom-layout
+layout: spotlight
+duration_estimate: "4min"
+tags: [layouts, authoring, customization]

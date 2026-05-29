@@ -1,0 +1,44 @@
+# Custom layout example. Unlike the built-in `takumido-*` primitives (provided by
+# the platform), custom layouts live in this repository under `layouts/` and are
+# named `<id>.layout.yaml`. They use the exact same DSL as the primitives — slots
+# + composition — and are exposed to the renderer through the course bundle.
+#
+# `spotlight` is a header band spanning the full width above a two-column body
+# (main detail + a narrower aside) — an arrangement no single primitive provides.
+schema_version: 1
+id: spotlight
+title: hidden
+slots:
+  headline:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+  detail:
+    accepts: [text, callout, list]
+    min: 1
+    required: true
+  aside:
+    accepts: [text, callout]
+    min: 0
+    max: 1
+    required: false
+composition:
+  type: grid
+  template:
+    columns: 2fr 1fr
+    rows: auto 1fr
+    areas:
+      - headline headline
+      - detail aside
+  gap: lg
+  regions:
+    - slot: headline
+      area: headline
+      classes: [pane, pane-centered]
+    - slot: detail
+      area: detail
+      classes: [pane, pane-text]
+    - slot: aside
+      area: aside
+      classes: [pane, pane-text]
