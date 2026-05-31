@@ -1,0 +1,12 @@
+schema_version: 1
+chapterTitle:
+  format: "%n — %t"
+font:
+  heading: "Geist"
+  body: "Geist"
+  codeSlide: "Cascadia Code"
+popoverButton:
+  inlineTitleIcon:
+    iconName: "lucide:info"
+background:
+  color: "#0d1117"
