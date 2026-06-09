@@ -1,0 +1,5 @@
+schema_version: 1
+id: reconnection
+layout: spotlight
+duration_estimate: "3min"
+tags: [reconnection, resilience, state-machine]

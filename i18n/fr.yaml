@@ -8,4 +8,7 @@ chapters:
     description: "Structure d'un cours, slides et layouts"
   live-session:
     title: "Session live"
-    description: "Rôles formateur et apprenti, Play/Pause, synchronisation temps réel"
+    description: "Rôles formateur et apprenti, Play/Pause, HWM, reconnexion"
+  navigation:
+    title: "Navigation & Démo"
+    description: "Menu chapitres, raccourcis clavier, scénario de démonstration complet"

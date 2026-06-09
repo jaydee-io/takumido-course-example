@@ -8,4 +8,7 @@ chapters:
     description: "Course structure, slides, and layouts"
   live-session:
     title: "Live Session"
-    description: "Trainer and apprentice roles, Play/Pause, real-time sync"
+    description: "Trainer and apprentice roles, Play/Pause, HWM, reconnection"
+  navigation:
+    title: "Navigation & Demo"
+    description: "Chapter menu, keyboard shortcuts, full demo scenario"

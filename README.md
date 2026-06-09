@@ -4,7 +4,7 @@ Bilingual showcase training for the [TakumiDo](https://takumido.app) platform.
 
 ## About this course
 
-**"Discover TakumiDo"** is a short introductory training (≈ 15 min) that demonstrates the platform's content pipeline and live session features. It serves as:
+**"Discover TakumiDo"** is an introductory training (≈ 35 min) that demonstrates the platform's content pipeline and live session features. It serves as:
 
 - A **test fixture** for the TakumiDo content pipeline (parsing, rendering, i18n)
 - A **documentary showcase** for content creators building their own courses
@@ -12,16 +12,27 @@ Bilingual showcase training for the [TakumiDo](https://takumido.app) platform.
 
 Languages: English (default), French.
 
+**Pedagogical coverage (v0.3.0):** Play, Pause, rewind, HWM progressive unlock, chapter menu navigation, reconnection preserving posture.
+
 ## Pedagogical coverage
 
 ### Chapter 1 — TakumiDo Concepts
 - **Welcome**: what TakumiDo is, who it's for, what problem it solves
 - **Anatomy of a course**: repository structure, manifests, slides, layouts
 - **Beyond primitives**: authoring a custom layout (`spotlight`) with the layout DSL
+- **Versioning and publishing**: semver tags, git workflow, pipeline resolution
 
 ### Chapter 2 — Live Session
 - **Trainer & Apprentice**: roles and capabilities during a live session
 - **Play & Pause loop**: apprentice navigation, resync, state machine
+- **High-Water Mark**: progressive slide locking — the trainer controls what the apprentice can access
+- **Reconnection**: automatic reconnection preserving Play/Pause posture and HWM
+
+### Chapter 3 — Navigation & Demo
+- **Chapter menu**: free navigation within unlocked slides, real-time HWM updates
+- **Keyboard shortcuts**: trainer and apprentice controls
+- **Full demo scenario**: step-by-step walkthrough of all state-machine transitions (Play → Pause → rewind → menu → HWM unlock → reconnection → resync)
+- **Summary**: all mechanics at a glance, minimal course structure, getting started
 
 ## Repository structure
 
@@ -37,29 +48,21 @@ takumido-course-example/
     ├── 01-concepts/
     │   ├── chapter.yaml
     │   ├── 01-welcome.slide/           # Layout: takumido-columns
-    │   │   ├── meta.yaml
-    │   │   ├── en.md
-    │   │   ├── fr.md
-    │   │   └── assets/
-    │   │       └── welcome-illustration.svg
     │   ├── 02-anatomy.slide/           # Layout: takumido-text
-    │   │   ├── meta.yaml
-    │   │   ├── en.md
-    │   │   └── fr.md
-    │   └── 03-custom-layout.slide/     # Layout: spotlight (custom)
-    │       ├── meta.yaml
-    │       ├── en.md
-    │       └── fr.md
-    └── 02-live-session/
+    │   ├── 03-custom-layout.slide/     # Layout: spotlight (custom)
+    │   └── 04-versioning.slide/        # Layout: takumido-text
+    ├── 02-live-session/
+    │   ├── chapter.yaml
+    │   ├── 01-roles.slide/             # Layout: takumido-columns
+    │   ├── 02-play-pause.slide/        # Layout: takumido-columns
+    │   ├── 03-hwm.slide/               # Layout: takumido-columns
+    │   └── 04-reconnection.slide/      # Layout: spotlight (custom)
+    └── 03-navigation/
         ├── chapter.yaml
-        ├── 01-roles.slide/             # Layout: takumido-columns
-        │   ├── meta.yaml
-        │   ├── en.md
-        │   └── fr.md
-        └── 02-play-pause.slide/        # Layout: takumido-columns
-            ├── meta.yaml
-            ├── en.md
-            └── fr.md
+        ├── 01-chapter-menu.slide/      # Layout: takumido-columns
+        ├── 02-shortcuts.slide/         # Layout: takumido-text
+        ├── 03-demo-scenario.slide/     # Layout: spotlight (custom)
+        └── 04-summary.slide/           # Layout: takumido-columns
 ```
 
 ## Layouts
@@ -138,24 +141,33 @@ Composition: `flex` (row, wrap).
 ### Custom layout: `spotlight`
 
 Defined in [`layouts/spotlight.layout.yaml`](layouts/spotlight.layout.yaml) and
-used by the **Beyond primitives** slide. It is a full-width headline band above a
-two-column body (a wide `detail` column and a narrower `aside`) — an arrangement
-no single primitive provides. Slots: `headline` (text, required), `detail`
-(text / callout / list, required), `aside` (text / callout, optional).
-Composition: `grid` with named areas.
+used by the **Beyond primitives**, **Reconnection**, and **Demo scenario** slides.
+It is a full-width headline band above a two-column body (a wide `detail` column
+and a narrower `aside`) — an arrangement no single primitive provides.
+Slots: `headline` (text, required), `detail` (text / callout / list, required),
+`aside` (text / callout, optional). Composition: `grid` with named areas.
 
 ### Layouts used by slide
 
 | Slide | Layout | Kind |
 |-------|--------|------|
-| 01-welcome | `takumido-columns` (text + image) | primitive |
-| 02-anatomy | `takumido-text` (text + embedded code block) | primitive |
-| 03-custom-layout | `spotlight` (headline + detail + aside) | custom |
-| 01-roles | `takumido-columns` (text + text) | primitive |
-| 02-play-pause | `takumido-columns` (text + Mermaid diagram) | primitive |
+| 01-welcome | `takumido-columns` | primitive |
+| 02-anatomy | `takumido-text` | primitive |
+| 03-custom-layout | `spotlight` | custom |
+| 04-versioning | `takumido-text` | primitive |
+| 01-roles | `takumido-columns` | primitive |
+| 02-play-pause | `takumido-columns` | primitive |
+| 03-hwm | `takumido-columns` | primitive |
+| 04-reconnection | `spotlight` | custom |
+| 01-chapter-menu | `takumido-columns` | primitive |
+| 02-shortcuts | `takumido-text` | primitive |
+| 03-demo-scenario | `spotlight` | custom |
+| 04-summary | `takumido-columns` | primitive |
 
 ## Versioning
 
 This repository follows [semver](https://semver.org/). The TakumiDo backend resolves courses by git tag.
 
 - `v0.1.0` — Initial release with 2 chapters, 4 slides, bilingual content
+- `v0.2.0` — 2 chapters, 5 slides, spotlight custom layout
+- `v0.3.0` — 3 chapters, 12 slides — covers Play, Pause, rewind, HWM, chapter menu, reconnection

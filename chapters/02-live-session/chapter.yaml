@@ -3,3 +3,5 @@ id: live-session
 slides:
   - dir: 01-roles.slide
   - dir: 02-play-pause.slide
+  - dir: 03-hwm.slide
+  - dir: 04-reconnection.slide

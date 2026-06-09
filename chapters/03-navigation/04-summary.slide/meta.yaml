@@ -1,0 +1,5 @@
+schema_version: 1
+id: summary
+layout: takumido-columns
+duration_estimate: "3min"
+tags: [summary, overview, recap]

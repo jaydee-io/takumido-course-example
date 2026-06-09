@@ -1,0 +1,7 @@
+schema_version: 1
+id: navigation
+slides:
+  - dir: 01-chapter-menu.slide
+  - dir: 02-shortcuts.slide
+  - dir: 03-demo-scenario.slide
+  - dir: 04-summary.slide
