@@ -4,9 +4,12 @@ languages: [en, fr]
 default_layout: takumido-text
 duration_estimate: "45min"
 tags: [showcase, tutorial, getting-started]
-chapters:
-  - 01-concepts
-  - 02-live-session
-  - 03-navigation
+outline:
+  - slide: course-opening
+  - chapter: 01-concepts
+  - chapter: 02-live-session
+  - slide: intermission
+  - chapter: 03-navigation
+  - slide: course-closing
 authors:
   - name: "JayDee"

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <!-- Enso circle (background, subtle) -->
+    <circle cx="60" cy="60" r="55" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0.3" stroke-dasharray="150 30"/>
+
+    <!-- Angular badge (octagon-like container) -->
+    <g id="badge">
+        <!-- Outer octagon -->
+        <polygon points="30,15 90,15 105,30 105,90 90,105 30,105 15,90 15,30"
+                 fill="none" stroke="#7C3AED" stroke-width="2.5"/>
+
+        <!-- Inner glow -->
+        <polygon points="32,18 88,18 102,32 102,88 88,102 32,102 18,88 18,32"
+                 fill="#7C3AED" opacity="0.05"/>
+    </g>
+
+    <!-- Letter "T" (angular, stylized) -->
+    <g id="letter-t" fill="#7C3AED">
+        <!-- Horizontal bar (top) -->
+        <rect x="38" y="30" width="44" height="5" rx="2"/>
+
+        <!-- Vertical stem -->
+        <rect x="56" y="35" width="8" height="52" rx="2"/>
+
+        <!-- Serifs (angular accents) -->
+        <polygon points="35,30 40,28 42,30 37,32"/>
+        <polygon points="85,30 80,28 78,30 83,32"/>
+        <polygon points="56,85 54,90 52,88 54,83"/>
+        <polygon points="64,85 66,90 68,88 66,83"/>
+    </g>
+</svg>
