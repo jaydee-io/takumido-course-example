@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
     <defs>
         <style>
-            .takumido-stroke {
-                stroke: #7C3AED;
-                stroke-width: 3.5;
+            .logo-stroke {
+                stroke: #8B5CF6;
+                stroke-width: 5;
                 stroke-linecap: round;
                 stroke-linejoin: round;
                 fill: none;
@@ -11,21 +11,18 @@
         </style>
     </defs>
 
-    <!-- Black background -->
-    <rect width="160" height="160" fill="#0a0e27"/>
+    <!-- Top separator line -->
+    <line class="logo-stroke" x1="10" y1="15" x2="90" y2="15"/>
 
-    <!-- Top horizontal bar -->
-    <line class="takumido-stroke" x1="25" y1="30" x2="135" y2="30"/>
+    <!-- Left chevron -->
+    <polyline class="logo-stroke" points="15,32 8,50 15,68"/>
 
-    <!-- Left chevron < -->
-    <polyline class="takumido-stroke" points="40,50 22,80 40,110"/>
+    <!-- T shape -->
+    <!-- Horizontal bar -->
+    <line class="logo-stroke" x1="28" y1="32" x2="72" y2="32"/>
+    <!-- Vertical stem -->
+    <line class="logo-stroke" x1="50" y1="32" x2="50" y2="85"/>
 
-    <!-- T shape (centered) -->
-    <!-- Horizontal bar of T -->
-    <line class="takumido-stroke" x1="48" y1="50" x2="112" y2="50"/>
-    <!-- Vertical stem of T -->
-    <line class="takumido-stroke" x1="80" y1="50" x2="80" y2="115"/>
-
-    <!-- Right chevron > -->
-    <polyline class="takumido-stroke" points="120,50 138,80 120,110"/>
+    <!-- Right chevron -->
+    <polyline class="logo-stroke" points="85,32 92,50 85,68"/>
 </svg>
