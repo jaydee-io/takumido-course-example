@@ -1,30 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-    <!-- Enso circle (background, subtle) -->
-    <circle cx="60" cy="60" r="55" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0.3" stroke-dasharray="150 30"/>
+    <!-- Purple color #7C3AED -->
+    <g stroke="#7C3AED" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Top bar (horizontal line above) -->
+        <line x1="20" y1="20" x2="100" y2="20"/>
 
-    <!-- Angular badge (octagon-like container) -->
-    <g id="badge">
-        <!-- Outer octagon -->
-        <polygon points="30,15 90,15 105,30 105,90 90,105 30,105 15,90 15,30"
-                 fill="none" stroke="#7C3AED" stroke-width="2.5"/>
+        <!-- Left chevron < -->
+        <polyline points="35,35 25,60 35,85"/>
 
-        <!-- Inner glow -->
-        <polygon points="32,18 88,18 102,32 102,88 88,102 32,102 18,88 18,32"
-                 fill="#7C3AED" opacity="0.05"/>
-    </g>
+        <!-- T shape centered -->
+        <g>
+            <!-- Horizontal bar of T -->
+            <line x1="40" y1="35" x2="80" y2="35"/>
+            <!-- Vertical stem of T -->
+            <line x1="60" y1="35" x2="60" y2="85"/>
+        </g>
 
-    <!-- Letter "T" (angular, stylized) -->
-    <g id="letter-t" fill="#7C3AED">
-        <!-- Horizontal bar (top) -->
-        <rect x="38" y="30" width="44" height="5" rx="2"/>
-
-        <!-- Vertical stem -->
-        <rect x="56" y="35" width="8" height="52" rx="2"/>
-
-        <!-- Serifs (angular accents) -->
-        <polygon points="35,30 40,28 42,30 37,32"/>
-        <polygon points="85,30 80,28 78,30 83,32"/>
-        <polygon points="56,85 54,90 52,88 54,83"/>
-        <polygon points="64,85 66,90 68,88 66,83"/>
+        <!-- Right chevron > -->
+        <polyline points="85,35 95,60 85,85"/>
     </g>
 </svg>
