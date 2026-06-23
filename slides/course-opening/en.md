@@ -3,9 +3,14 @@ title: Welcome to TakumiDo
 description: Master the art of discipline and practice
 ---
 
-# Welcome to TakumiDo
+::: slot title
 
-[logo]
+Welcome to TakumiDo
+
+:::
+
+::: slot subtitle
 
 From discipline and practice to mastery_
 
+:::
