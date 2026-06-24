@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="TakumiDô">
+  <!-- Brand mark: a torii gate inside an accent ring. The logo is a brand-specific
+       asset (its colours belong to the TakumiDô identity); a different course ships
+       its own logo asset (Story 1.24). -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#7C3AED" stroke-width="6" opacity="0.85"/>
+  <g fill="#F0F6FC">
+    <!-- Kasagi (top beam, upturned) -->
+    <path d="M40 56 q60 -16 120 0 l0 14 q-60 -14 -120 0 Z"/>
+    <!-- Gakuzuka (centre ridge) -->
+    <rect x="96" y="70" width="8" height="12"/>
+    <!-- Nuki (second beam) -->
+    <rect x="58" y="84" width="84" height="11"/>
+    <!-- Pillars -->
+    <rect x="62" y="70" width="14" height="86"/>
+    <rect x="124" y="70" width="14" height="86"/>
+  </g>
+</svg>

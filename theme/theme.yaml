@@ -10,3 +10,8 @@ popoverButton:
     iconName: "lucide:info"
 background:
   color: "#0d1117"
+# Brand accent (Story 1.23). Drives `--brand-accent`, consumed by the brand block's
+# wordmark accent + blinking cursor and the `[data-intent]` roles. The colour lives
+# here, never in slide content.
+brand:
+  accent: "#7C3AED"

@@ -5,12 +5,13 @@ description: Master the art of discipline and practice
 
 ::: slot title
 
-Welcome to TakumiDo
+Welcome
 
 :::
 
-::: slot subtitle
+::: slot cover_visual
 
-From discipline and practice to mastery_
+::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMID[Ô]" tagline="From discipline and practice to mastery" cursor=true}
+:::
 
 :::

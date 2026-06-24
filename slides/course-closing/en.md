@@ -5,13 +5,14 @@ description: Continue your journey of discipline and practice
 
 ::: slot title
 
-Thank you for learning with TakumiDo
+Thank you
 
 :::
 
 ::: slot summary
 
-You have taken the first steps on your path to mastery.
+::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMID[Ô]" tagline="From discipline and practice to mastery" cursor=true}
+:::
 
 :::
 
