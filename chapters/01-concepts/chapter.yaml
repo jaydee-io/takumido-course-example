@@ -1,6 +1,11 @@
 schema_version: 1
 id: concepts
+# Story 1.21: explicitly designate the chapter opening slide. It is also the first
+# slide in reading order ("toujours premier") — opening_slide makes the click target
+# of the chapter node reliable and self-documenting rather than assuming slides[0].
+opening_slide: 00-chapter-opening.slide
 slides:
+  - dir: 00-chapter-opening.slide
   - dir: 01-welcome.slide
   - dir: 02-anatomy.slide
   - dir: 03-custom-layout.slide
