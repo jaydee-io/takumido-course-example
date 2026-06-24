@@ -1,10 +1,10 @@
 course:
-  title: "Découvrir TakumiDo"
-  description: "Une formation vitrine bilingue présentant les concepts de la plateforme TakumiDo et les mécanismes de session live."
+  title: "Découvrir TakumiDô"
+  description: "Une formation vitrine bilingue présentant les concepts de la plateforme TakumiDô et les mécanismes de session live."
 
 chapters:
   concepts:
-    title: "Concepts TakumiDo"
+    title: "Concepts TakumiDô"
     description: "Structure d'un cours, slides et layouts"
   live-session:
     title: "Session live"

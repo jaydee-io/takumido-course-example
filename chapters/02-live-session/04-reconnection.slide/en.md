@@ -4,7 +4,7 @@
 
 ::: slot headline
 
-TakumiDo preserves the apprentice's **Play/Pause posture** across network interruptions.
+TakumiDô preserves the apprentice's **Play/Pause posture** across network interruptions.
 
 :::
 

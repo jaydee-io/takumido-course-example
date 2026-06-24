@@ -4,7 +4,7 @@
 
 ::: slot body
 
-TakumiDo propose des raccourcis clavier dédiés pour les deux rôles, permettant de naviguer sans jamais quitter la vue plein-écran.
+TakumiDô propose des raccourcis clavier dédiés pour les deux rôles, permettant de naviguer sans jamais quitter la vue plein-écran.
 
 ### Raccourcis de l'apprenti
 

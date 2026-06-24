@@ -1,4 +1,4 @@
-# Summary — TakumiDo at a Glance
+# Summary — TakumiDô at a Glance
 
 > All mechanics, all roles.
 
@@ -31,7 +31,7 @@
 ## Resources
 
 **Create your own course:**
-Clone this repository and adapt the chapters — the TakumiDo pipeline handles the rest.
+Clone this repository and adapt the chapters — the TakumiDô pipeline handles the rest.
 
 **Minimal structure:**
 
@@ -53,6 +53,6 @@ git tag -a v1.0.0 -m "Initial release"
 git push origin v1.0.0
 ```
 
-> **Next step:** submit the repository URL in TakumiDo and launch your first live session.
+> **Next step:** submit the repository URL in TakumiDô and launch your first live session.
 
 :::

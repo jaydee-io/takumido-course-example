@@ -1,6 +1,6 @@
 # Trainer & Apprentice
 
-> The two roles in a TakumiDo live session.
+> The two roles in a TakumiDô live session.
 
 ::: slot left
 

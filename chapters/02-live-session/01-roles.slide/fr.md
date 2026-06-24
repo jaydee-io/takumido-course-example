@@ -1,6 +1,6 @@
 # Formateur & Apprenti
 
-> Les deux rôles d'une session live TakumiDo.
+> Les deux rôles d'une session live TakumiDô.
 
 ::: slot left
 

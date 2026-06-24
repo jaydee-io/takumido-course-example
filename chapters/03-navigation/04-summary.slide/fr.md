@@ -1,4 +1,4 @@
-# Récapitulatif — TakumiDo en un coup d'œil
+# Récapitulatif — TakumiDô en un coup d'œil
 
 > Toutes les mécaniques, tous les rôles.
 
@@ -31,7 +31,7 @@
 ## Ressources
 
 **Créer votre propre cours :**
-Clonez ce dépôt et adaptez les chapitres — le pipeline TakumiDo fait le reste.
+Clonez ce dépôt et adaptez les chapitres — le pipeline TakumiDô fait le reste.
 
 **Structure minimale :**
 
@@ -53,6 +53,6 @@ git tag -a v1.0.0 -m "Initial release"
 git push origin v1.0.0
 ```
 
-> **Prochaine étape :** déposer l'URL du dépôt dans TakumiDo et lancer votre première session live.
+> **Prochaine étape :** déposer l'URL du dépôt dans TakumiDô et lancer votre première session live.
 
 :::

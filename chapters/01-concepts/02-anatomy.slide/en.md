@@ -1,6 +1,6 @@
 # Anatomy of a Course
 
-> How a TakumiDo course repository is structured.
+> How a TakumiDô course repository is structured.
 
 ::: slot body
 

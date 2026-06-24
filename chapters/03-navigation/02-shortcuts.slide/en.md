@@ -4,7 +4,7 @@
 
 ::: slot body
 
-TakumiDo provides dedicated keyboard shortcuts for both roles, enabling navigation without ever leaving the full-screen view.
+TakumiDô provides dedicated keyboard shortcuts for both roles, enabling navigation without ever leaving the full-screen view.
 
 ### Apprentice shortcuts
 

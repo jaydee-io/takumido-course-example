@@ -1,10 +1,10 @@
 course:
-  title: "Discover TakumiDo"
-  description: "A bilingual showcase training introducing TakumiDo platform concepts and live session mechanics."
+  title: "Discover TakumiDô"
+  description: "A bilingual showcase training introducing TakumiDô platform concepts and live session mechanics."
 
 chapters:
   concepts:
-    title: "TakumiDo Concepts"
+    title: "TakumiDô Concepts"
     description: "Course structure, slides, and layouts"
   live-session:
     title: "Live Session"

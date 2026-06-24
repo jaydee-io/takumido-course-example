@@ -4,7 +4,7 @@
 
 ::: slot headline
 
-TakumiDo préserve la **posture Play/Pause** de l'apprenti à travers les coupures réseau.
+TakumiDô préserve la **posture Play/Pause** de l'apprenti à travers les coupures réseau.
 
 :::
 

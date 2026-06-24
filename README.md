@@ -1,12 +1,12 @@
 # takumido-course-example
 
-Bilingual showcase training for the [TakumiDo](https://takumido.app) platform.
+Bilingual showcase training for the [TakumiDô](https://takumido.app) platform.
 
 ## About this course
 
-**"Discover TakumiDo"** is an introductory training (≈ 35 min) that demonstrates the platform's content pipeline and live session features. It serves as:
+**"Discover TakumiDô"** is an introductory training (≈ 35 min) that demonstrates the platform's content pipeline and live session features. It serves as:
 
-- A **test fixture** for the TakumiDo content pipeline (parsing, rendering, i18n)
+- A **test fixture** for the TakumiDô content pipeline (parsing, rendering, i18n)
 - A **documentary showcase** for content creators building their own courses
 - A **reference implementation** of the course repository structure (Option E)
 
@@ -16,8 +16,8 @@ Languages: English (default), French.
 
 ## Pedagogical coverage
 
-### Chapter 1 — TakumiDo Concepts
-- **Welcome**: what TakumiDo is, who it's for, what problem it solves
+### Chapter 1 — TakumiDô Concepts
+- **Welcome**: what TakumiDô is, who it's for, what problem it solves
 - **Anatomy of a course**: repository structure, manifests, slides, layouts
 - **Beyond primitives**: authoring a custom layout (`spotlight`) with the layout DSL
 - **Versioning and publishing**: semver tags, git workflow, pipeline resolution
@@ -74,7 +74,7 @@ slots from its Markdown (`::: slot <name>` blocks).
 
 There are two kinds:
 
-- **Primitive layouts** (`takumido-*`) — provided by the TakumiDo platform. They
+- **Primitive layouts** (`takumido-*`) — provided by the TakumiDô platform. They
   cover the common slide shapes and need no setup. The `takumido-` prefix is
   **reserved**: a custom layout may not use it.
 - **Custom layouts** — defined in this repository under `layouts/<id>.layout.yaml`,
@@ -166,7 +166,7 @@ Slots: `headline` (text, required), `detail` (text / callout / list, required),
 
 ## Versioning
 
-This repository follows [semver](https://semver.org/). The TakumiDo backend resolves courses by git tag.
+This repository follows [semver](https://semver.org/). The TakumiDô backend resolves courses by git tag.
 
 - `v0.1.0` — Initial release with 2 chapters, 4 slides, bilingual content
 - `v0.2.0` — 2 chapters, 5 slides, spotlight custom layout

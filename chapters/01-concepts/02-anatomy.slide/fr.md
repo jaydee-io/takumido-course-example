@@ -1,6 +1,6 @@
 # Anatomie d'un cours
 
-> Comment est structuré un dépôt de cours TakumiDo.
+> Comment est structuré un dépôt de cours TakumiDô.
 
 ::: slot body
 

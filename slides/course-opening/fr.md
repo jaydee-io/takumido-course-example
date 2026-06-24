@@ -1,5 +1,5 @@
 ---
-title: Bienvenue à TakumiDo
+title: Bienvenue à TakumiDô
 description: Maîtrisez l'art de la discipline et de la pratique
 ---
 
@@ -11,7 +11,7 @@ Bienvenue
 
 ::: slot cover_visual
 
-::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMID[Ô]" tagline="From discipline and practice to mastery" cursor=true}
+::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMI[DÔ]" tagline="From discipline and practice to mastery" cursor=true}
 :::
 
 :::

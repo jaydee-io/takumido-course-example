@@ -11,7 +11,7 @@ Merci
 
 ::: slot summary
 
-::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMID[Ô]" tagline="From discipline and practice to mastery" cursor=true}
+::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMI[DÔ]" tagline="From discipline and practice to mastery" cursor=true}
 :::
 
 :::
