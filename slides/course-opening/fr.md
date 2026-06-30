@@ -11,7 +11,7 @@ Bienvenue
 
 ::: slot cover_visual
 
-::: brand{logo="@assets/brand/logo.svg" wordmark="TAKUMI[DÔ]" tagline="From discipline and practice to mastery" cursor=true}
+::: brand{logo="@assets/takumido-logo.svg" wordmark="TAKUMI[DÔ]" tagline="From discipline and practice to mastery" cursor=true}
 :::
 
 :::
