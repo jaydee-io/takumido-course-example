@@ -10,6 +10,10 @@ font:
 popoverButton:
   inlineTitleIcon:
     iconName: "lucide:info"
+# Per-slide brand watermark (Story 5.2): a discreet decorative icon painted bottom-right
+# on content slides (never on the intro/outro lockup, cover or pause layouts). Resolved to
+# a served asset URL at build; the asset lives at the course-root assets/ (moved there in 5.1).
+icon: "@assets/takumido-icon.svg"
 # Washi ivory surface (Story 5.1). Also mirrored in palette.surface-base below so every
 # surface consumer resolves to washi, not just the slide background layer.
 background:
