@@ -1,4 +1,9 @@
 schema_version: 1
 id: intermission
-layout: takumido-text
+layout: pause
 visible: true
+# Story 5.4: full-screen breather. The seal-red field lives HERE (single source of
+# truth), passed through as-is by the parser and injected as --slide-bg-color. The
+# value is the design-system token, so no hex is hard-coded in the content.
+background:
+  color: "var(--color-accent-secondary)"

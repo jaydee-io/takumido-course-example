@@ -1,0 +1,51 @@
+# Custom narrative layout — NOT a platform primitive. Like `spotlight`, it lives in
+# this course repository under `layouts/` and is named `<id>.layout.yaml`. It uses the
+# exact same DSL as the `takumido-*` primitives and is validated FULL by the platform
+# (custom layouts do NOT skip the region-class whitelist). Appearance is 100 % tokens:
+# no hex/px here — colours come from the washi palette (theme.yaml) and the whitelisted
+# `pane-*` classes; ratios are `fr` units; spacing uses the `xs…2xl` tokens.
+#
+# `concept` poses ONE key idea: a title band, a strong central statement, and an
+# optional supporting note set back. It is the vitrine's own narrative grammar (a demo
+# of custom authoring) → it stays custom, unprefixed. The `statement` reads in the
+# display face at title size and the `support` in the muted colour; both nuances are
+# not expressible in the DSL alone and are carried by scoped `data-layout="concept"`
+# base-theme rules in slide-engine.css (tokens only — see Story 5.4 Dev Notes).
+schema_version: 1
+id: concept
+slots:
+  title:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+  statement:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+  support:
+    accepts: [text, callout, list]
+    min: 0
+    max: 1
+    required: false
+composition:
+  type: grid
+  template:
+    columns: 1fr
+    rows: auto 1fr auto
+    areas:
+      - title
+      - statement
+      - support
+  gap: lg
+  regions:
+    - slot: title
+      area: title
+      classes: [pane, pane-title-band]
+    - slot: statement
+      area: statement
+      classes: [pane, pane-centered, pane-text]
+    - slot: support
+      area: support
+      classes: [pane, pane-text]

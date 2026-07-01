@@ -1,0 +1,48 @@
+# Custom narrative layout (vitrine only) — same rules as `concept`: validated FULL,
+# unprefixed, appearance 100 % tokens (no hex/px). See `concept.layout.yaml` header.
+#
+# `closing` is the vitrine's narrative sign-off: a centred vertical stack (title,
+# optional message, optional CTA, optional brand lockup). It applies an INTENTIONAL,
+# assumed exception to the locked title band: the title is CENTRED with no band and no
+# inline-start bar (`pane-centered`, NOT `pane-title-band`) — a calm, symmetrical
+# moment of closure. This is deliberately DISTINCT from the platform primitive
+# `takumido-course-closing` (the full intro/outro lockup); `closing` is a lighter,
+# course-authored ending. Region order = reading order (title → message → cta → brand).
+schema_version: 1
+id: closing
+slots:
+  title:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+  message:
+    accepts: [text, list]
+    min: 0
+    max: 1
+    required: false
+  cta:
+    accepts: [text, callout]
+    min: 0
+    max: 1
+    required: false
+  brand:
+    accepts: [brand]
+    min: 0
+    max: 1
+    required: false
+composition:
+  type: stack
+  direction: vertical
+  align: center
+  justify: center
+  gap: lg
+  regions:
+    - slot: title
+      classes: [pane, pane-centered]
+    - slot: message
+      classes: [pane, pane-centered, pane-text]
+    - slot: cta
+      classes: [pane, pane-centered]
+    - slot: brand
+      classes: [pane, pane-centered]

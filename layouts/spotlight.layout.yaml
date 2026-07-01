@@ -26,19 +26,29 @@ slots:
 composition:
   type: grid
   template:
-    columns: 2fr 1fr
+    # Story 5.4: rebalanced 2fr/1fr → 3fr/2fr (~60/40) so `detail` clearly leads
+    # without starving `aside`; gap lg → xl for more breathing room.
+    columns: 3fr 2fr
     rows: auto 1fr
     areas:
       - headline headline
       - detail aside
-  gap: lg
+  gap: xl
+  # NO `align_items` here: the grid default (stretch) lets `detail` fill the 1fr row so
+  # `pane-v-scrollable` actually binds long text to the frame (Story 5.3 lesson —
+  # align_items: center|start collapses the region to its content and neutralises the
+  # scroll). The aside's top alignment is a LOCAL concern → `pane-align-top` on the
+  # region, never `align_items` on the container.
   regions:
     - slot: headline
       area: headline
-      classes: [pane, pane-centered]
+      # Story 5.4: pane-centered → pane-title-band (start-aligned locked band).
+      classes: [pane, pane-title-band]
     - slot: detail
       area: detail
-      classes: [pane, pane-text]
+      # Story 5.4: bounded vertical overflow for long text/code cases.
+      classes: [pane, pane-text, pane-v-scrollable]
     - slot: aside
       area: aside
-      classes: [pane, pane-text]
+      # Story 5.4: set back (tokenised secondary card) + top-aligned locally.
+      classes: [pane, pane-text, pane-bg-dim, pane-align-top]

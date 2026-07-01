@@ -1,0 +1,33 @@
+# Custom full-screen layout (vitrine only) — same rules as `concept`: validated FULL,
+# unprefixed, appearance 100 % tokens (no hex/px). See `concept.layout.yaml` header.
+#
+# `pause` is the breather between chapters — a real moment of rest. It declares NO
+# title band (`title: hidden`, an assumed exception) and a single centred `word` slot:
+# one strong word ("Respire" / "Breathe") rendered as the display hero. The seal-red
+# background is NOT set here — it lives on the SLIDE (slides/intermission/meta.yaml
+# `background: { color: "var(--color-accent-secondary)" }`) as the single source of
+# truth (tokenised, no hex). The large 休 ("rest") watermark is a CSS pseudo-element
+# (`.slide[data-layout="pause"] .slide__content::before` in slide-engine.css), so it is
+# decorative BY CONSTRUCTION — outside the a11y tree, non-selectable — needing no DSL
+# plumbing. `word` is real, selectable/translatable text painted above the watermark.
+# `pause` ∈ IDENTITY_LAYOUT_IDS (constants.ts) → no per-slide brand icon.
+schema_version: 1
+id: pause
+title: hidden
+slots:
+  word:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+composition:
+  type: grid
+  template:
+    columns: 1fr
+    rows: 1fr
+    areas:
+      - stage
+  regions:
+    - slot: word
+      area: stage
+      classes: [pane, pane-centered]

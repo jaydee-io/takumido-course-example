@@ -1,0 +1,55 @@
+# Custom narrative layout (vitrine only) — same rules as `concept`: validated FULL,
+# unprefixed, appearance 100 % tokens (no hex/px). See `concept.layout.yaml` header.
+#
+# `comparison` opposes two approaches side by side: a title band, two equal columns
+# (`left | right` at 1fr/1fr — the symmetry IS the meaning), and an optional
+# full-width `verdict` row. The `right` column is set back with `pane-bg-dim` (a
+# tokenised secondary surface) so the two sides read as distinct WITHOUT any hard-coded
+# colour — the differentiation is entirely the whitelisted class, not a value in YAML.
+schema_version: 1
+id: comparison
+slots:
+  title:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+  left:
+    accepts: [text, list, code, callout]
+    min: 1
+    required: true
+  right:
+    accepts: [text, list, code, callout]
+    min: 1
+    required: true
+  verdict:
+    accepts: [text, callout]
+    min: 0
+    max: 1
+    required: false
+composition:
+  type: grid
+  template:
+    columns: 1fr 1fr
+    rows: auto 1fr auto
+    areas:
+      - title title
+      - left right
+      - verdict verdict
+  gap: lg
+  regions:
+    - slot: title
+      area: title
+      classes: [pane, pane-title-band]
+    # Story 5.4 review: left/right accept `code` (arbitrarily tall) with no `max`, and the
+    # container has no `align_items` (grid default stretch) → pane-v-scrollable binds long
+    # content to the 1fr row instead of clipping under `.slide { overflow: hidden }`.
+    - slot: left
+      area: left
+      classes: [pane, pane-text, pane-v-scrollable]
+    - slot: right
+      area: right
+      classes: [pane, pane-text, pane-bg-dim, pane-v-scrollable]
+    - slot: verdict
+      area: verdict
+      classes: [pane, pane-text]

@@ -1,12 +1,10 @@
 ---
-title: Take a Break
-description: Take a moment to reflect
+title: Breathe
+description: A moment of rest before the last chapter
 ---
 
-::: slot body
+::: slot word
 
-You've been learning hard. Take a moment to reflect on what you've learned so far.
-
-Remember: mastery is built step by step, through consistent practice and discipline.
+Breathe
 
 :::

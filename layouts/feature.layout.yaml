@@ -1,0 +1,57 @@
+# Custom narrative layout (vitrine only) — same rules as `concept`: validated FULL,
+# unprefixed, appearance 100 % tokens (no hex/px). See `concept.layout.yaml` header.
+#
+# `feature` presents ONE capability with an in-house illustration: a title band, a
+# text-dominant body (`description | visual` at a 3fr/2fr ratio so prose leads and the
+# image supports), and an optional muted footer note. The `visual` is NOT boxed
+# (`pane-no-padding`) so the illustration bleeds to its cell; it is an *informative*
+# image (unlike the decorative pause watermark) and therefore MUST carry a non-empty
+# `alt` when present — the author fills it in the slide's image block. The `note`
+# reads in the muted colour via a scoped `data-layout="feature"` rule (tokens only);
+# `pane-footer` both anchors it to the bottom row and gives the rule a unique hook.
+schema_version: 1
+id: feature
+slots:
+  title:
+    accepts: [text]
+    min: 1
+    max: 1
+    required: true
+  description:
+    accepts: [text, list, callout]
+    min: 1
+    required: true
+  visual:
+    accepts: [image]
+    min: 0
+    max: 1
+    required: false
+  note:
+    accepts: [text, callout]
+    min: 0
+    max: 1
+    required: false
+composition:
+  type: grid
+  template:
+    columns: 3fr 2fr
+    rows: auto 1fr auto
+    areas:
+      - title title
+      - description visual
+      - note note
+  gap: lg
+  align_items: start
+  regions:
+    - slot: title
+      area: title
+      classes: [pane, pane-title-band]
+    - slot: description
+      area: description
+      classes: [pane, pane-text]
+    - slot: visual
+      area: visual
+      classes: [pane, pane-no-padding]
+    - slot: note
+      area: note
+      classes: [pane, pane-footer, pane-text]
