@@ -5,11 +5,17 @@ default_layout: takumido-text
 duration_estimate: "45min"
 tags: [showcase, tutorial, getting-started]
 outline:
+  # Story 5.6: restructured 3 technical chapters → 4 narrative chapters (esprit /
+  # pourquoi / apprenti / formateur). The old chapters (01-concepts, 02-live-session,
+  # 03-navigation) and the provisional `platform-roadmap` slide remain on disk OUT of
+  # the outline as MIGRATION SOURCE for Stories 5.7/5.8/5.9 (the bundle loads the
+  # outline only — CourseBundleService), and are removed once their material is migrated.
   - slide: course-opening
-  - chapter: 01-concepts
-  - chapter: 02-live-session
+  - chapter: 01-esprit-takumi
+  - chapter: 02-pourquoi
   - slide: intermission
-  - chapter: 03-navigation
+  - chapter: 03-apprenti
+  - chapter: 04-formateur
   - slide: course-closing
 authors:
   - name: "JayDee"

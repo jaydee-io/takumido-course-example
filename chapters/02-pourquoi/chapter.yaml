@@ -1,0 +1,8 @@
+schema_version: 1
+id: pourquoi
+opening_slide: 00-chapter-opening.slide
+slides:
+  - dir: 00-chapter-opening.slide
+  - dir: 01-classic-platforms-problem.slide
+  - dir: 02-curriculum-as-code.slide
+  - dir: 03-live-vs-replay.slide

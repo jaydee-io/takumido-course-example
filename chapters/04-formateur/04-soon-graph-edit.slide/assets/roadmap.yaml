@@ -1,0 +1,14 @@
+# Story 5.6: isolated "Bientôt — l'édition graphique" roadmap (single lane). i18n KEYS
+# only. A "Bientôt" slide by construction: only soon/exploring statuses.
+schema_version: 1
+title: roadmap.title
+branches:
+  - id: trainer
+    label: roadmap.trainer.label
+    nodes:
+      - id: notifications
+        label: roadmap.trainer.notifications
+        status: soon
+      - id: analytics
+        label: roadmap.trainer.analytics
+        status: exploring

@@ -3,6 +3,20 @@ course:
   description: "A bilingual showcase training introducing TakumiDô platform concepts and live session mechanics."
 
 chapters:
+  # Story 5.6: 4 target narrative chapters (validated structure).
+  esprit-takumi:
+    title: "The Takumi Spirit"
+    description: "What a Takumi is, the discipline → practice → mastery way, the mantras"
+  pourquoi:
+    title: "Why TakumiDô"
+    description: "The classic-platform observation, curriculum-as-code, guided live vs replay"
+  apprenti:
+    title: "Apprentice Side"
+    description: "The apprentice experience, progressive unlocking (HWM), reconnection, Coming soon"
+  formateur:
+    title: "Trainer Side"
+    description: "Play/Pause tempo, progress tracking, curriculum-as-code for authors, Coming soon"
+  # Story 5.6: legacy keys kept — migration folders out of the outline (Stories 5.7–5.9).
   concepts:
     title: "TakumiDô Concepts"
     description: "Course structure, slides, and layouts"
@@ -12,3 +26,21 @@ chapters:
   navigation:
     title: "Navigation & Demo"
     description: "Chapter menu, keyboard shortcuts, full demo scenario"
+
+# Story 5.5: git-tree roadmap labels (resolved per render language on the backend).
+roadmap:
+  title: "An honest look at the platform"
+  apprentice:
+    label: "Apprentice"
+    play_pause: "Play / Pause"
+    play_pause_detail: "Follow live or explore at your own pace"
+    chapter_menu: "Chapter menu"
+    graph_edit: "Graphical editing"
+    graph_edit_detail: "Annotate slides while paused"
+    gamification: "Gamification"
+  trainer:
+    label: "Trainer"
+    dashboard: "Live dashboard"
+    dashboard_detail: "Three-column resizable cockpit"
+    notifications: "Rich notifications"
+    analytics: "Session analytics"

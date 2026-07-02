@@ -1,0 +1,9 @@
+schema_version: 1
+id: apprenti
+opening_slide: 00-chapter-opening.slide
+slides:
+  - dir: 00-chapter-opening.slide
+  - dir: 01-apprentice-experience.slide
+  - dir: 02-progressive-unlock.slide
+  - dir: 03-resume-nothing-lost.slide
+  - dir: 04-soon-apprentice.slide

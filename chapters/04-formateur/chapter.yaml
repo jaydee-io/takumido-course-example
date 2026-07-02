@@ -1,0 +1,10 @@
+schema_version: 1
+id: formateur
+opening_slide: 00-chapter-opening.slide
+slides:
+  - dir: 00-chapter-opening.slide
+  - dir: 01-lead-the-way.slide
+  - dir: 02-track-progress.slide
+  - dir: 03-authoring-curriculum-as-code.slide
+  - dir: 04-soon-graph-edit.slide
+  - dir: 05-chapter-closing.slide

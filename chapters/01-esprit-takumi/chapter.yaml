@@ -1,0 +1,10 @@
+schema_version: 1
+id: esprit-takumi
+opening_slide: 00-chapter-opening.slide
+slides:
+  - dir: 00-chapter-opening.slide
+  - dir: 01-opening-mantra.slide
+  - dir: 02-what-is-takumi.slide
+  - dir: 03-sixty-thousand-hours.slide
+  - dir: 04-discipline-practice-mastery.slide
+  - dir: 05-takumido-mantras.slide

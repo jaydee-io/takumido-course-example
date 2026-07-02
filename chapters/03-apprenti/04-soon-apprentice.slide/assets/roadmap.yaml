@@ -1,0 +1,16 @@
+# Story 5.6: isolated "Bientôt — Apprenti" roadmap (single lane). i18n KEYS only —
+# labels resolve per render language from i18n/<lang>.yaml. A "Bientôt" slide by
+# construction: only soon/exploring statuses (nothing shipped is mixed in here).
+schema_version: 1
+title: roadmap.title
+branches:
+  - id: apprentice
+    label: roadmap.apprentice.label
+    nodes:
+      - id: graph-edit
+        label: roadmap.apprentice.graph_edit
+        status: soon
+        detail: roadmap.apprentice.graph_edit_detail
+      - id: gamification
+        label: roadmap.apprentice.gamification
+        status: exploring
