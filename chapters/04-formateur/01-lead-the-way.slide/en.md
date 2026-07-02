@@ -22,6 +22,8 @@ The trainer sets the tempo: each step syncs every apprentice.
 
 ::: slot support
 
-::badge[Play] / ::badge[Pause] — the master sets the pace. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+::badge[Play] / ::badge[Pause] — the master sets the pace.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::

@@ -22,6 +22,8 @@ Le formateur donne le tempo : chaque avancée synchronise tous les apprentis.
 
 ::: slot support
 
-::badge[Play] / ::badge[Pause] — le maître décide du rythme. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+::badge[Play] / ::badge[Pause] — le maître décide du rythme.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::

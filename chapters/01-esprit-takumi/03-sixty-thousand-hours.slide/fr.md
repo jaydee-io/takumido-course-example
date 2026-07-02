@@ -22,6 +22,8 @@ description: "La statistique qui porte le slide (anecdote text-forward, origami 
 
 ::: slot support
 
-La maîtrise se compte en années de pratique. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+La maîtrise se compte en années de pratique.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::

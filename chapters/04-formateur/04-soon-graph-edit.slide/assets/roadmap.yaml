@@ -6,6 +6,10 @@ branches:
   - id: trainer
     label: roadmap.trainer.label
     nodes:
+      - id: graph-edit
+        label: roadmap.trainer.graph_edit
+        status: soon
+        detail: roadmap.trainer.graph_edit_detail
       - id: notifications
         label: roadmap.trainer.notifications
         status: soon

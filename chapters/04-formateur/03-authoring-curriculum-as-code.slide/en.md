@@ -16,7 +16,9 @@ Curriculum-as-code for authors
 
 ::: slot description
 
-A course is written in ::accent[YAML + Markdown], versioned by semver tags, published with `git push`. No frontend code. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+A course is written in ::accent[YAML + Markdown], versioned by semver tags, published with `git push`. No frontend code.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 

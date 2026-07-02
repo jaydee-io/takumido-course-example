@@ -16,7 +16,9 @@ Progressive unlocking
 
 ::: slot description
 
-The ::accent[High-Water Mark] releases slides as the trainer advances — you cannot skip the way. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+The ::accent[High-Water Mark] releases slides as the trainer advances — you cannot skip the way.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 

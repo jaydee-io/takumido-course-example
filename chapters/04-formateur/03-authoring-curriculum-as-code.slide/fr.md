@@ -16,7 +16,9 @@ Curriculum-as-code côté auteur
 
 ::: slot description
 
-Un cours s'écrit en ::accent[YAML + Markdown], se versionne par tags semver, se publie par `git push`. Aucun code frontend. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Un cours s'écrit en ::accent[YAML + Markdown], se versionne par tags semver, se publie par `git push`. Aucun code frontend.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

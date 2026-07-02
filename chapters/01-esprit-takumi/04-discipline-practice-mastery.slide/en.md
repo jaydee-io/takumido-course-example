@@ -16,7 +16,9 @@ Discipline → practice → mastery
 
 ::: slot description
 
-The way of the Takumi in three movements. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+The way of the Takumi in three movements.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 

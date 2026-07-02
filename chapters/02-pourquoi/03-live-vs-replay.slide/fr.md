@@ -26,7 +26,9 @@ Live guidé vs replay
 
 ## Live guidé TakumiDô
 
-Synchronisation temps réel, tempo du formateur, déverrouillage progressif. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Synchronisation temps réel, tempo du formateur, déverrouillage progressif.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

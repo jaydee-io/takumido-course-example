@@ -16,7 +16,9 @@ Le déverrouillage progressif
 
 ::: slot description
 
-La ::accent[High-Water Mark] libère les slides au fur et à mesure que le formateur avance — on ne peut pas sauter la voie. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+La ::accent[High-Water Mark] libère les slides au fur et à mesure que le formateur avance — on ne peut pas sauter la voie.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

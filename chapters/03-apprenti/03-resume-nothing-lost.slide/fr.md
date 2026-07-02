@@ -16,7 +16,9 @@ Reprendre sans rien perdre
 
 ::: slot detail
 
-Une coupure réseau ne fait pas perdre sa place : la posture ::badge[Play] / ::badge[Pause] est préservée à la reconnexion. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Une coupure réseau ne fait pas perdre sa place : la posture ::badge[Play] / ::badge[Pause] est préservée à la reconnexion.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

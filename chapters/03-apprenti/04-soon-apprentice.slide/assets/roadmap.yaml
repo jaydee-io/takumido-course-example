@@ -7,10 +7,6 @@ branches:
   - id: apprentice
     label: roadmap.apprentice.label
     nodes:
-      - id: graph-edit
-        label: roadmap.apprentice.graph_edit
-        status: soon
-        detail: roadmap.apprentice.graph_edit_detail
       - id: gamification
         label: roadmap.apprentice.gamification
         status: exploring

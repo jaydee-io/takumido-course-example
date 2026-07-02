@@ -16,7 +16,9 @@ Resume without losing anything
 
 ::: slot detail
 
-A network drop doesn't lose your place: the ::badge[Play] / ::badge[Pause] posture is preserved on reconnection. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+A network drop doesn't lose your place: the ::badge[Play] / ::badge[Pause] posture is preserved on reconnection.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 

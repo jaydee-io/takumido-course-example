@@ -22,6 +22,8 @@ Apprendre seul, en replay, sans rythme ni guide.
 
 ::: slot support
 
-::muted[Un constat, pas une attaque.] > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+::muted[Un constat, pas une attaque.]
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::

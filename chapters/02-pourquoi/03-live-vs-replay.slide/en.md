@@ -26,7 +26,9 @@ Guided live vs replay
 
 ## TakumiDô guided live
 
-Real-time sync, trainer tempo, progressive unlocking. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+Real-time sync, trainer tempo, progressive unlocking.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 

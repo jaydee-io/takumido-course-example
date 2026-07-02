@@ -16,7 +16,9 @@ Discipline → pratique → maîtrise
 
 ::: slot description
 
-La voie du Takumi en trois temps. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+La voie du Takumi en trois temps.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

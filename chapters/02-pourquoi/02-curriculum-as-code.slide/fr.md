@@ -16,7 +16,9 @@ Curriculum-as-code
 
 ::: slot description
 
-Un cours TakumiDô est un ::accent[dépôt git] versionné par tags semver — pas une base de données propriétaire. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Un cours TakumiDô est un ::accent[dépôt git] versionné par tags semver — pas une base de données propriétaire.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

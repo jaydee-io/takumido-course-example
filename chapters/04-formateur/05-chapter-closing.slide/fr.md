@@ -16,6 +16,8 @@ Suivre la voie, puis tracer la sienne
 
 ::: slot message
 
-De la discipline à la maîtrise : contenu-as-code, direct guidé, déverrouillage progressif. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+De la discipline à la maîtrise : contenu-as-code, direct guidé, déverrouillage progressif.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::

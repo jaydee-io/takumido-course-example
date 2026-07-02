@@ -22,6 +22,8 @@ Learning alone, on replay, with no rhythm and no guide.
 
 ::: slot support
 
-::muted[An observation, not an attack.] > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+::muted[An observation, not an attack.]
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::

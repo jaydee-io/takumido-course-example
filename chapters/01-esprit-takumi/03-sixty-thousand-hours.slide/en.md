@@ -22,6 +22,8 @@ description: "The statistic that carries the slide (text-forward, optional origa
 
 ::: slot support
 
-Mastery is measured in years of practice. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+Mastery is measured in years of practice.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::

@@ -16,7 +16,9 @@ Tracking progress
 
 ::: slot description
 
-A ::accent[three-column cockpit]: navigation, preview, connected apprentices — with the High-Water Mark marker. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+A ::accent[three-column cockpit]: navigation, preview, connected apprentices — with the High-Water Mark marker.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 

@@ -16,6 +16,8 @@ Follow the way, then trace your own
 
 ::: slot message
 
-From discipline to mastery: curriculum-as-code, guided live, progressive unlocking. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+From discipline to mastery: curriculum-as-code, guided live, progressive unlocking.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::

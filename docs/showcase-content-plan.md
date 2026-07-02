@@ -73,9 +73,9 @@ course-closing  (standalone, brand lockup « Merci » — bookend de course-open
 | **04-soon-graph-edit** | `takumido-roadmap` | **Roadmap isolée, lane Formateur (édition graphique)** | **BIENTÔT** | rail data-driven |
 | 05-chapter-closing | `closing` | Récap & clôture (bookend Ch.1) | MONTRÉ | — |
 
-**Slides « Bientôt » (validation #2)** : exactement **2**, toutes deux `takimido-roadmap`
-isolées — `03-apprenti/04-soon-apprentice` (lane Apprenti : édition graphique `soon`,
-gamification `exploring`) et `04-formateur/04-soon-graph-edit` (lane Formateur :
+**Slides « Bientôt » (validation #2)** : exactement **2**, toutes deux `takumido-roadmap`
+isolées — `03-apprenti/04-soon-apprentice` (lane Apprenti : gamification `exploring`) et
+`04-formateur/04-soon-graph-edit` (lane Formateur : édition graphique `soon`,
 notifications `soon`, analytique `exploring`). Aucune autre slide ne contient de promesse.
 
 ## Mantras TakumiDô figés (AC5)

@@ -16,7 +16,9 @@ Suivre la progression
 
 ::: slot description
 
-Un ::accent[cockpit trois colonnes] : navigation, aperçu, apprentis connectés — avec le marqueur High-Water Mark. > À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Un ::accent[cockpit trois colonnes] : navigation, aperçu, apprentis connectés — avec le marqueur High-Water Mark.
+
+> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
 
 :::
 

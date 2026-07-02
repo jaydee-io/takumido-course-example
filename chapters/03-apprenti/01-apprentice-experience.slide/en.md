@@ -12,7 +12,9 @@ description: "Join in one click, follow in Play, explore in Pause."
 
 ## Join & follow
 
-One URL, a first name, no account. In ::badge[Play] mode the apprentice follows the trainer in real time. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+One URL, a first name, no account. In ::badge[Play] mode the apprentice follows the trainer in real time.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 
@@ -20,6 +22,8 @@ One URL, a first name, no account. In ::badge[Play] mode the apprentice follows 
 
 ## Explore
 
-In ::badge[Pause] mode the apprentice freely revisits covered slides, then resyncs. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+In ::badge[Pause] mode the apprentice freely revisits covered slides, then resyncs.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::

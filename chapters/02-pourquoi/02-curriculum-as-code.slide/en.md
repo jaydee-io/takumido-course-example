@@ -16,7 +16,9 @@ Curriculum-as-code
 
 ::: slot description
 
-A TakumiDô course is a ::accent[git repository] versioned by semver tags — not a proprietary database. > To be written (Story 5.7/5.8/5.9) — planning placeholder.
+A TakumiDô course is a ::accent[git repository] versioned by semver tags — not a proprietary database.
+
+> To be written (Story 5.7/5.8/5.9) — planning placeholder.
 
 :::
 
