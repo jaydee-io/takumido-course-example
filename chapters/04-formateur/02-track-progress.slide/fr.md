@@ -1,12 +1,7 @@
 ---
 title: "Suivre la progression"
-description: "Le dashboard trois colonnes et le marqueur HWM."
+description: "Le cockpit trois colonnes et le marqueur High-Water Mark."
 ---
-
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: feature.
-     Intention: Dashboard formateur, suivi de progression.
-     Matière source: chapters/02-live-session/03-hwm.slide (marqueur formateur).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
 
 ::: slot title
 
@@ -16,14 +11,18 @@ Suivre la progression
 
 ::: slot description
 
-Un ::accent[cockpit trois colonnes] : navigation, aperçu, apprentis connectés — avec le marqueur High-Water Mark.
+Le formateur pilote depuis un ::accent[cockpit trois colonnes] redimensionnable, pensé pour tout voir sans quitter la voie :
 
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+- **Navigation** — l'arborescence du cours, chapitre par chapitre, pour sauter où il veut.
+- **Aperçu** — la slide courante et les suivantes, pour préparer le geste avant de le montrer.
+- **Apprentis connectés** — qui est là, en ::badge[Play] ou en ::badge[Pause], et où chacun en est.
+
+Le marqueur ::accent[High-Water Mark] matérialise le point le plus avancé de la session : il monte quand le formateur avance, ne redescend jamais. Il voit la progression du groupe d'un coup d'œil — sans jamais forcer la posture d'un apprenti qui explore en Pause.
 
 :::
 
 ::: slot note
 
-::muted[Illustration/capture : dashboard formateur (nice-to-have).]
+::muted[Le formateur voit ; l'apprenti garde la main.]
 
 :::

@@ -3,11 +3,6 @@ title: "Diriger la voie"
 description: "Le formateur donne le tempo (Play/Pause)."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: concept.
-     Intention: Tempo Play/Pause côté formateur.
-     Matière source: chapters/02-live-session/01-roles.slide (formateur) + 02-play-pause.slide.
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Diriger la voie
@@ -16,14 +11,12 @@ Diriger la voie
 
 ::: slot statement
 
-Le formateur donne le tempo : chaque avancée synchronise tous les apprentis.
+Le formateur donne le tempo. Chaque fois qu'il change de slide, tous les apprentis en ::badge[Play] avancent avec lui, en temps réel. Il ne pousse pas du contenu : il trace une voie, et le groupe la suit.
 
 :::
 
 ::: slot support
 
-::badge[Play] / ::badge[Pause] — le maître décide du rythme.
-
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+::muted[Le maître décide du rythme.] Un apprenti peut passer en ::badge[Pause] pour explorer à son gré, puis se resynchroniser d'un ::kbd[Espace] — mais c'est toujours le formateur qui fixe la cadence commune. Rien à installer, rien à téléverser : il ouvre la session, et la voie s'ouvre.
 
 :::

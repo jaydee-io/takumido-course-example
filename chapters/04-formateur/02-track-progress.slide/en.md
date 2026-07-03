@@ -1,12 +1,7 @@
 ---
 title: "Tracking progress"
-description: "The three-column dashboard and the HWM marker."
+description: "The three-column cockpit and the High-Water Mark marker."
 ---
-
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: feature.
-     Intention: Dashboard formateur, suivi de progression.
-     Matière source: chapters/02-live-session/03-hwm.slide (marqueur formateur).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
 
 ::: slot title
 
@@ -16,14 +11,18 @@ Tracking progress
 
 ::: slot description
 
-A ::accent[three-column cockpit]: navigation, preview, connected apprentices — with the High-Water Mark marker.
+The trainer drives from a resizable ::accent[three-column cockpit], designed to see everything without leaving the way:
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+- **Navigation** — the course tree, chapter by chapter, to jump wherever they want.
+- **Preview** — the current slide and the ones ahead, to prepare the gesture before showing it.
+- **Connected apprentices** — who is here, in ::badge[Play] or ::badge[Pause], and where each one stands.
+
+The ::accent[High-Water Mark] marker shows the furthest point reached in the session: it rises as the trainer advances, never falls back. They read the group's progress at a glance — without ever forcing the posture of an apprentice exploring in Pause.
 
 :::
 
 ::: slot note
 
-::muted[Illustration/screenshot: trainer dashboard (nice-to-have).]
+::muted[The trainer sees; the apprentice keeps control.]
 
 :::

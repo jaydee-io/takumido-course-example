@@ -3,11 +3,6 @@ title: "Follow the way, then trace your own"
 description: "Narrative recap and sign-off (bookend of Ch.1)."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: closing.
-     Intention: Récap & clôture ; bookend du mantra d'ouverture.
-     Matière source: chapters/03-navigation/04-summary.slide.
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Follow the way, then trace your own
@@ -16,8 +11,14 @@ Follow the way, then trace your own
 
 ::: slot message
 
-From discipline to mastery: curriculum-as-code, guided live, progressive unlocking.
+We set out from a mantra: from discipline comes practice, and from practice, mastery. The journey embodied it — a course that lives in git, a live session where the trainer traces the way, an unlocking earned slide after slide.
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+The apprentice follows the way; the trainer, one day, traces their own. It's the same discipline, seen from both sides.
+
+:::
+
+::: slot cta
+
+::muted[To discover TakumiDô is already to start walking.]
 
 :::

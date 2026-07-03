@@ -3,11 +3,6 @@ title: "Leading the way"
 description: "The trainer sets the tempo (Play/Pause)."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: concept.
-     Intention: Tempo Play/Pause côté formateur.
-     Matière source: chapters/02-live-session/01-roles.slide (formateur) + 02-play-pause.slide.
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Leading the way
@@ -16,14 +11,12 @@ Leading the way
 
 ::: slot statement
 
-The trainer sets the tempo: each step syncs every apprentice.
+The trainer sets the tempo. Each time they move to a new slide, every apprentice in ::badge[Play] advances with them, in real time. They don't push content: they trace a way, and the group follows it.
 
 :::
 
 ::: slot support
 
-::badge[Play] / ::badge[Pause] — the master sets the pace.
-
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+::muted[The master sets the pace.] An apprentice can switch to ::badge[Pause] to explore at will, then resync with a single ::kbd[Space] — but it is always the trainer who sets the shared cadence. Nothing to install, nothing to upload: they open the session, and the way opens.
 
 :::

@@ -3,11 +3,6 @@ title: "Curriculum-as-code côté auteur"
 description: "Écrire un cours en YAML/Markdown, versionné par git."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: feature.
-     Intention: Authoring YAML/git ; réemploi arbre git.
-     Matière source: chapters/01-concepts/04-versioning.slide ; réemploi illustration arbre git (Ch.2).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Curriculum-as-code côté auteur
@@ -16,14 +11,24 @@ Curriculum-as-code côté auteur
 
 ::: slot description
 
-Un cours s'écrit en ::accent[YAML + Markdown], se versionne par tags semver, se publie par `git push`. Aucun code frontend.
+Côté formateur-auteur, créer un cours n'est pas remplir un formulaire dans une interface : c'est écrire des fichiers dans un ::accent[dépôt git].
 
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+- **Écrire** — des manifestes YAML pour la structure, du Markdown pour le contenu, des layouts déclaratifs pour la forme. Aucun code frontend.
+- **Versionner** — chaque livraison est un tag semver annoté (`v1.0.0`). La session enregistre la version exacte : ce que voit l'apprenti est reproductible, auditable.
+- **Publier** — corriger une coquille ou ajouter un chapitre, c'est un commit et un `git push`. La plateforme se charge du reste.
+
+Le cours n'est pas enfermé dans la plateforme : il t'appartient, il est diffable, il vit dans ton outillage habituel.
+
+:::
+
+::: slot visual
+
+![Arbre git d'un cours côté auteur — des commits, une branche, et le tag publié par `git push` marqué par l'accent-sceau](@slide/assets/authoring-git-tree.svg){.image}
 
 :::
 
 ::: slot note
 
-::muted[Illustration : arbre git (réemploi de l'illustration structurante du Ch.2).]
+::muted[Illustration originale TakumiDô.]
 
 :::

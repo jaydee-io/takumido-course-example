@@ -16,12 +16,9 @@ chapters:
   formateur:
     title: "Trainer Side"
     description: "Play/Pause tempo, progress tracking, curriculum-as-code for authors, Coming soon"
-  # Story 5.6: legacy keys kept — migration folders out of the outline (Story 5.9).
   # Story 5.7: `concepts` removed (01-concepts folder migrated into Ch.1+Ch.2, then deleted).
   # Story 5.8: `live-session` removed (02-live-session folder migrated into Ch.3, then deleted).
-  navigation:
-    title: "Navigation & Demo"
-    description: "Chapter menu, keyboard shortcuts, full demo scenario"
+  # Story 5.9: `navigation` removed (03-navigation folder migrated into Ch.4, then deleted).
 
 # Story 5.5: git-tree roadmap labels (resolved per render language on the backend).
 roadmap:
@@ -31,8 +28,8 @@ roadmap:
     gamification: "Gamification"
   trainer:
     label: "Trainer"
-    dashboard: "Live dashboard"
-    dashboard_detail: "Three-column resizable cockpit"
+    # Story 5.9: `dashboard`/`dashboard_detail` removed (orphans — consumed by the
+    # `platform-roadmap` deleted in 5.8; the 04-soon-graph-edit slide does not reference them).
     graph_edit: "Graphical editing"
     graph_edit_detail: "Annotate slides while paused"
     notifications: "Rich notifications"

@@ -16,12 +16,9 @@ chapters:
   formateur:
     title: "Côté Formateur"
     description: "Tempo Play/Pause, suivi de progression, curriculum-as-code côté auteur, Bientôt"
-  # Story 5.6: anciennes clés conservées — dossiers de migration hors outline (Story 5.9).
   # Story 5.7: `concepts` retiré (dossier 01-concepts migré vers Ch.1+Ch.2, puis supprimé).
   # Story 5.8: `live-session` retiré (dossier 02-live-session migré vers Ch.3, puis supprimé).
-  navigation:
-    title: "Navigation & Démo"
-    description: "Menu chapitres, raccourcis clavier, scénario de démonstration complet"
+  # Story 5.9: `navigation` retiré (dossier 03-navigation migré vers Ch.4, puis supprimé).
 
 # Story 5.5: libellés de la roadmap git-tree (résolus par langue de rendu côté backend).
 roadmap:
@@ -31,8 +28,8 @@ roadmap:
     gamification: "Gamification"
   trainer:
     label: "Formateur"
-    dashboard: "Dashboard live"
-    dashboard_detail: "Cockpit trois colonnes redimensionnable"
+    # Story 5.9: `dashboard`/`dashboard_detail` retirés (orphelins — consommés par le
+    # `platform-roadmap` supprimé en 5.8 ; le slide 04-soon-graph-edit ne les référence pas).
     graph_edit: "Édition graphique"
     graph_edit_detail: "Annoter les slides en pause"
     notifications: "Notifications enrichies"

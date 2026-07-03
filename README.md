@@ -4,7 +4,7 @@ Bilingual showcase training for the [TakumiDô](https://takumido.app) platform.
 
 ## About this course
 
-**"Discover TakumiDô"** is an introductory training (≈ 35 min) that demonstrates the platform's content pipeline and live session features. It serves as:
+**"Discover TakumiDô"** is an introductory training (≈ 45 min) that demonstrates the platform's content pipeline and live session features. It serves as:
 
 - A **test fixture** for the TakumiDô content pipeline (parsing, rendering, i18n)
 - A **documentary showcase** for content creators building their own courses
@@ -12,45 +12,49 @@ Bilingual showcase training for the [TakumiDô](https://takumido.app) platform.
 
 Languages: English (default), French.
 
-**Pedagogical coverage (v0.3.0):** Play, Pause, rewind, HWM progressive unlock, chapter menu navigation, reconnection preserving posture.
+**Pedagogical coverage (v1.0.0):** a four-chapter narrative journey — the Takumi spirit, why TakumiDô is different, the apprentice experience (Play/Pause, HWM progressive unlock, reconnection), and the trainer's power (tempo, progress tracking, curriculum-as-code) — with two honest, isolated "Coming soon" roadmaps.
 
 ## Pedagogical coverage
 
-### Chapter 1 — TakumiDô Concepts
-- **Welcome**: what TakumiDô is, who it's for, what problem it solves
-- **Anatomy of a course**: repository structure, manifests, slides, layouts
-- **Beyond primitives**: authoring a custom layout (`spotlight`) with the layout DSL
-- **Versioning and publishing**: semver tags, git workflow, pipeline resolution
+The course is a narrative arc, not a feature list: `course-opening` → four chapters → `course-closing`, with an `intermission` breather between Ch.2 and Ch.3.
 
-### Chapter 2 — Live Session
-- **Trainer & Apprentice**: roles and capabilities during a live session
-- **Play & Pause loop**: apprentice navigation, resync, state machine
-- **High-Water Mark**: progressive slide locking — the trainer controls what the apprentice can access
-- **Reconnection**: automatic reconnection preserving Play/Pause posture and HWM
+### Chapter 1 — The Takumi Spirit (`01-esprit-takumi`)
+What a Takumi is, the opening mantra, the discipline → practice → mastery way, and the fixed TakumiDô mantras. Structural illustration **S1** (the three-beat frieze).
 
-### Chapter 3 — Navigation & Demo
-- **Chapter menu**: free navigation within unlocked slides, real-time HWM updates
-- **Keyboard shortcuts**: trainer and apprentice controls
-- **Full demo scenario**: step-by-step walkthrough of all state-machine transitions (Play → Pause → rewind → menu → HWM unlock → reconnection → resync)
-- **Summary**: all mechanics at a glance, minimal course structure, getting started
+### Chapter 2 — Why TakumiDô (`02-pourquoi`)
+The classic-platform observation (not an attack), **curriculum-as-code** as the founding differentiator, and guided live vs replay. Structural illustration **S2** (curriculum-as-code git tree).
+
+### Chapter 3 — Apprentice Side (`03-apprenti`)
+The apprentice experience (join, Play/Pause), **progressive unlocking** via the High-Water Mark, and resuming without loss (reconnection). Structural illustration **S3** (HWM diagram). Ends on an isolated **Coming soon — Apprentice** roadmap.
+
+### Chapter 4 — Trainer Side (`04-formateur`)
+Leading the way (the Play/Pause tempo), tracking progress (three-column cockpit + HWM marker), and **curriculum-as-code for authors** (reusing the git-tree illustration, **S4**). Ends on an isolated **Coming soon — graphical editing** roadmap, then a narrative closing that bookends Ch.1.
 
 ## Repository structure
 
 ```
 takumido-course-example/
-├── course.yaml                         # Root manifest (schema v1)
+├── course.yaml                         # Root manifest (schema v1) — outline
 ├── i18n/
-│   ├── en.yaml                         # English translations (course + chapter titles)
+│   ├── en.yaml                         # English translations (course + chapter + roadmap labels)
 │   └── fr.yaml                         # French translations
-├── layouts/
-│   └── spotlight.layout.yaml           # Custom layout (header band + 2-column body)
+├── theme/                              # Washi palette, brand tokens (Story 5.1)
+├── layouts/                            # Custom narrative layouts (Story 5.4)
+│   ├── concept.layout.yaml
+│   ├── feature.layout.yaml
+│   ├── comparison.layout.yaml
+│   ├── closing.layout.yaml
+│   ├── pause.layout.yaml
+│   └── spotlight.layout.yaml
+├── slides/                             # Standalone (out-of-chapter) slides
+│   ├── course-opening.slide/
+│   ├── intermission.slide/             # Layout: pause
+│   └── course-closing.slide/
 └── chapters/
-    └── 03-navigation/                  # Migration leftover (removed in Story 5.9)
-        ├── chapter.yaml
-        ├── 01-chapter-menu.slide/      # Layout: takumido-columns
-        ├── 02-shortcuts.slide/         # Layout: takumido-text
-        ├── 03-demo-scenario.slide/     # Layout: spotlight (custom)
-        └── 04-summary.slide/           # Layout: takumido-columns
+    ├── 01-esprit-takumi/               # Ch.1 — The Takumi Spirit
+    ├── 02-pourquoi/                    # Ch.2 — Why TakumiDô
+    ├── 03-apprenti/                    # Ch.3 — Apprentice Side
+    └── 04-formateur/                   # Ch.4 — Trainer Side
 ```
 
 ## Layouts
@@ -126,31 +130,22 @@ Composition: `flex` (row, wrap).
 > `takumido-quiz` (slot `body`: quiz, exactly one) is **reserved for a future
 > milestone** — it has no renderer yet and is intentionally not shown here.
 
-### Custom layout: `spotlight`
+### Custom narrative layouts
 
-Defined in [`layouts/spotlight.layout.yaml`](layouts/spotlight.layout.yaml) and
-used by the **Beyond primitives**, **Reconnection**, and **Demo scenario** slides.
-It is a full-width headline band above a two-column body (a wide `detail` column
-and a narrower `aside`) — an arrangement no single primitive provides.
-Slots: `headline` (text, required), `detail` (text / callout / list, required),
-`aside` (text / callout, optional). Composition: `grid` with named areas.
+Beyond `spotlight`, the showcase redesign (Story 5.4) added a small family of
+course-authored narrative layouts under `layouts/`, each a live demo of custom
+authoring with the same DSL as the platform primitives:
 
-### Layouts used by slide
+- **`concept`** — one key idea: title band, strong central statement, optional muted note.
+- **`feature`** — one capability with an in-house illustration (text-dominant body + `visual`).
+- **`comparison`** — two symmetrical panes (live vs replay).
+- **`closing`** — a centred narrative sign-off (title with no band — an intentional exception).
+- **`pause`** — a full-bleed breather (used by the `intermission` standalone).
+- **`spotlight`** — a headline band above a wide `detail` + narrower `aside`.
 
-| Slide | Layout | Kind |
-|-------|--------|------|
-| 01-welcome | `takumido-columns` | primitive |
-| 02-anatomy | `takumido-text` | primitive |
-| 03-custom-layout | `spotlight` | custom |
-| 04-versioning | `takumido-text` | primitive |
-| 01-roles | `takumido-columns` | primitive |
-| 02-play-pause | `takumido-columns` | primitive |
-| 03-hwm | `takumido-columns` | primitive |
-| 04-reconnection | `spotlight` | custom |
-| 01-chapter-menu | `takumido-columns` | primitive |
-| 02-shortcuts | `takumido-text` | primitive |
-| 03-demo-scenario | `spotlight` | custom |
-| 04-summary | `takumido-columns` | primitive |
+The platform also provides `takumido-*` primitives consumed by the course, notably
+`takumido-chapter-opening` (per-chapter opening) and `takumido-roadmap` (the
+data-driven "Coming soon" rail, fed by a per-slide `assets/roadmap.yaml`).
 
 ## Versioning
 
@@ -159,3 +154,4 @@ This repository follows [semver](https://semver.org/). The TakumiDô backend res
 - `v0.1.0` — Initial release with 2 chapters, 4 slides, bilingual content
 - `v0.2.0` — 2 chapters, 5 slides, spotlight custom layout
 - `v0.3.0` — 3 chapters, 12 slides — covers Play, Pause, rewind, HWM, chapter menu, reconnection
+- `v1.0.0` — Showcase redesign (Epic 5): washi visual identity, four-chapter narrative journey, three in-house illustrations (S1–S3, S4 reusing S2), two isolated "Coming soon" roadmaps
