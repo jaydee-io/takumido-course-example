@@ -16,11 +16,9 @@ chapters:
   formateur:
     title: "Trainer Side"
     description: "Play/Pause tempo, progress tracking, curriculum-as-code for authors, Coming soon"
-  # Story 5.6: legacy keys kept — migration folders out of the outline (Stories 5.8–5.9).
+  # Story 5.6: legacy keys kept — migration folders out of the outline (Story 5.9).
   # Story 5.7: `concepts` removed (01-concepts folder migrated into Ch.1+Ch.2, then deleted).
-  live-session:
-    title: "Live Session"
-    description: "Trainer and apprentice roles, Play/Pause, HWM, reconnection"
+  # Story 5.8: `live-session` removed (02-live-session folder migrated into Ch.3, then deleted).
   navigation:
     title: "Navigation & Demo"
     description: "Chapter menu, keyboard shortcuts, full demo scenario"
@@ -30,9 +28,6 @@ roadmap:
   title: "An honest look at the platform"
   apprentice:
     label: "Apprentice"
-    play_pause: "Play / Pause"
-    play_pause_detail: "Follow live or explore at your own pace"
-    chapter_menu: "Chapter menu"
     gamification: "Gamification"
   trainer:
     label: "Trainer"

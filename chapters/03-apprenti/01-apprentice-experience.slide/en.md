@@ -3,18 +3,13 @@ title: "The apprentice experience"
 description: "Join in one click, follow in Play, explore in Pause."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: takumido-columns.
-     Intention: Expérience apprenti : Play/Pause, menu chapitres.
-     Matière source: chapters/02-live-session/01-roles.slide (apprenti) + 02-play-pause.slide ; 03-navigation/01-chapter-menu.slide.
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot left
 
 ## Join & follow
 
-One URL, a first name, no account. In ::badge[Play] mode the apprentice follows the trainer in real time.
+One URL, a first name, no account. Within seconds, you're in the session.
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+In ::badge[Play] mode you follow the trainer in ::accent[real time]: each time they move to a new slide, your view updates instantly. There's nothing to steer — you watch the way unfold ahead of you.
 
 :::
 
@@ -22,8 +17,8 @@ One URL, a first name, no account. In ::badge[Play] mode the apprentice follows 
 
 ## Explore
 
-In ::badge[Pause] mode the apprentice freely revisits covered slides, then resyncs.
+Press ::kbd[Space] to switch to ::badge[Pause] mode: you take back control and freely revisit any slide already covered.
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+The ::accent[chapter menu] guides you — a tree of the whole course. Slides already presented are clickable; those the trainer hasn't reached yet stay greyed out. One more ::kbd[Space], and you resync to their position.
 
 :::

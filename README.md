@@ -45,13 +45,7 @@ takumido-course-example/
 ├── layouts/
 │   └── spotlight.layout.yaml           # Custom layout (header band + 2-column body)
 └── chapters/
-    ├── 02-live-session/
-    │   ├── chapter.yaml
-    │   ├── 01-roles.slide/             # Layout: takumido-columns
-    │   ├── 02-play-pause.slide/        # Layout: takumido-columns
-    │   ├── 03-hwm.slide/               # Layout: takumido-columns
-    │   └── 04-reconnection.slide/      # Layout: spotlight (custom)
-    └── 03-navigation/
+    └── 03-navigation/                  # Migration leftover (removed in Story 5.9)
         ├── chapter.yaml
         ├── 01-chapter-menu.slide/      # Layout: takumido-columns
         ├── 02-shortcuts.slide/         # Layout: takumido-text

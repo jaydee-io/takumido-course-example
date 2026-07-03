@@ -2,11 +2,6 @@
 title: "Côté Apprenti"
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: takumido-chapter-opening.
-     Intention: Poser l'expérience vécue par l'apprenti.
-     Matière source: nouveau (rédaction Story 5.7/5.8/5.9).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Côté Apprenti
@@ -15,8 +10,8 @@ Côté Apprenti
 
 ::: slot overview
 
-- L'expérience : rejoindre, suivre, explorer (Play/Pause)
-- Le déverrouillage progressif (High-Water Mark)
+- Rejoindre en un clic, suivre en Play, explorer en Pause
+- Le déverrouillage progressif : la High-Water Mark libère les slides au rythme du formateur
 - Reprendre sans rien perdre — et ce qui arrive bientôt
 
 :::

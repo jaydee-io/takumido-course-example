@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200" role="img">
+  <!-- S3 — Diagramme HWM de déverrouillage progressif (Story 5.8). Style sumi-e maison :
+       fond transparent, trait fin à l'encre, un seul accent-sceau. Palette = tokens 5.1
+       (encre #1C1A17, gris #6B6358, sceau #C8503C). Aucun autre hex.
+       Rail de slides : celles ≤ HWM sont déverrouillées (encre pleine), celles > HWM
+       verrouillées (gris pointillé) ; la barre HWM en accent-sceau = position du formateur. -->
+  <!-- Slides déverrouillées (index ≤ HWM) : trait plein à l'encre -->
+  <rect x="30"  y="78" width="44" height="44" rx="3" fill="none" stroke="#1C1A17" stroke-width="2"/>
+  <rect x="86"  y="78" width="44" height="44" rx="3" fill="none" stroke="#1C1A17" stroke-width="2"/>
+  <rect x="142" y="78" width="44" height="44" rx="3" fill="none" stroke="#1C1A17" stroke-width="2"/>
+  <rect x="198" y="78" width="44" height="44" rx="3" fill="none" stroke="#1C1A17" stroke-width="2"/>
+  <!-- Slides verrouillées (index > HWM) : trait fin gris pointillé -->
+  <rect x="266" y="78" width="44" height="44" rx="3" fill="none" stroke="#6B6358" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="322" y="78" width="44" height="44" rx="3" fill="none" stroke="#6B6358" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- Barre High-Water Mark : le seuil, à la position du formateur — l'unique accent-sceau -->
+  <line x1="254" y1="60" x2="254" y2="140" stroke="#C8503C" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="254" cy="54" r="6" fill="#C8503C"/>
+  <!-- Sol : une seule ligne d'assise, beaucoup de vide (ma) au-dessus -->
+  <line x1="24" y1="150" x2="372" y2="150" stroke="#1C1A17" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+</svg>

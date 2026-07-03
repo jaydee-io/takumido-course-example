@@ -6,11 +6,12 @@ duration_estimate: "45min"
 tags: [showcase, tutorial, getting-started]
 outline:
   # Story 5.6: restructured 3 technical chapters → 4 narrative chapters (esprit /
-  # pourquoi / apprenti / formateur). The remaining old chapters (02-live-session,
-  # 03-navigation) and the provisional `platform-roadmap` slide stay on disk OUT of
-  # the outline as MIGRATION SOURCE for Stories 5.8/5.9 (the bundle loads the outline
-  # only — CourseBundleService), and are removed once their material is migrated.
+  # pourquoi / apprenti / formateur). The remaining old chapter (03-navigation) stays
+  # on disk OUT of the outline as MIGRATION SOURCE for Story 5.9 (the bundle loads the
+  # outline only — CourseBundleService), and is removed once its material is migrated.
   # Story 5.7: 01-concepts migrated into Ch.1+Ch.2 and deleted.
+  # Story 5.8: 02-live-session migrated into Ch.3, `platform-roadmap` dissolved into the
+  # isolated Ch.3/Ch.4 roadmaps; both deleted.
   - slide: course-opening
   - chapter: 01-esprit-takumi
   - chapter: 02-pourquoi

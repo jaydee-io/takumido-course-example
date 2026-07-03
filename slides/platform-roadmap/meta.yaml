@@ -1,8 +1,0 @@
-schema_version: 1
-id: platform-roadmap
-layout: takumido-roadmap
-visible: true
-# Story 5.5: witness slide for the data-driven "git-tree" roadmap primitive. All the
-# roadmap data lives in assets/roadmap.yaml (statuses + i18n keys); the labels resolve
-# per render language from the course i18n dictionaries. PROVISIONAL location — Story 5.6+
-# will relocate the roadmaps into the Apprentice/Trainer chapters (Ch.3/Ch.4).

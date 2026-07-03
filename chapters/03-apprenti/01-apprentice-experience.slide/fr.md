@@ -3,18 +3,13 @@ title: "L'expérience apprenti"
 description: "Rejoindre en un clic, suivre en Play, explorer en Pause."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: takumido-columns.
-     Intention: Expérience apprenti : Play/Pause, menu chapitres.
-     Matière source: chapters/02-live-session/01-roles.slide (apprenti) + 02-play-pause.slide ; 03-navigation/01-chapter-menu.slide.
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot left
 
 ## Rejoindre & suivre
 
-Une URL, un prénom, aucun compte. En mode ::badge[Play] l'apprenti suit le formateur en temps réel.
+Une URL, un prénom, aucun compte. En quelques secondes, tu es dans la session.
 
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+En mode ::badge[Play], tu suis le formateur en ::accent[temps réel] : à chaque fois qu'il change de slide, ta vue se met à jour instantanément. Tu n'as rien à piloter — tu regardes la voie se tracer devant toi.
 
 :::
 
@@ -22,8 +17,8 @@ Une URL, un prénom, aucun compte. En mode ::badge[Play] l'apprenti suit le form
 
 ## Explorer
 
-En mode ::badge[Pause] l'apprenti revisite librement les slides déjà couvertes, puis se resynchronise.
+Appuie sur ::kbd[Espace] pour passer en mode ::badge[Pause] : tu reprends la main et revisites librement toute slide déjà couverte.
 
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Le ::accent[menu chapitres] t'y guide — une arborescence de tout le cours. Les slides déjà présentées sont cliquables ; celles que le formateur n'a pas encore atteintes restent grisées. Un ::kbd[Espace] de plus, et tu te resynchronises sur sa position.
 
 :::
