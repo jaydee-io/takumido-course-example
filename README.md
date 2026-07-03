@@ -45,12 +45,6 @@ takumido-course-example/
 ├── layouts/
 │   └── spotlight.layout.yaml           # Custom layout (header band + 2-column body)
 └── chapters/
-    ├── 01-concepts/
-    │   ├── chapter.yaml
-    │   ├── 01-welcome.slide/           # Layout: takumido-columns
-    │   ├── 02-anatomy.slide/           # Layout: takumido-text
-    │   ├── 03-custom-layout.slide/     # Layout: spotlight (custom)
-    │   └── 04-versioning.slide/        # Layout: takumido-text
     ├── 02-live-session/
     │   ├── chapter.yaml
     │   ├── 01-roles.slide/             # Layout: takumido-columns

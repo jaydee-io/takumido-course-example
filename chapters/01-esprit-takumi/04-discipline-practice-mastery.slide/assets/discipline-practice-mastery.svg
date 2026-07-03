@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img">
+  <!-- S1 — Frise discipline → pratique → maîtrise (Story 5.7). Style sumi-e maison :
+       fond transparent, trait fin à l'encre, un seul accent-sceau. Palette = tokens 5.1
+       (encre #1C1A17, gris #6B6358, sceau #C8503C). Aucun autre hex. -->
+  <!-- Chemin ascendant : la voie qui monte en trois temps -->
+  <path d="M60 200 L200 140 L340 70" fill="none" stroke="#6B6358" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <!-- Temps 1 — discipline (bas) -->
+  <line x1="60" y1="200" x2="60" y2="228" stroke="#1C1A17" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="200" r="9" fill="none" stroke="#1C1A17" stroke-width="2"/>
+  <!-- Temps 2 — pratique (milieu) -->
+  <line x1="200" y1="140" x2="200" y2="228" stroke="#1C1A17" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="200" cy="140" r="11" fill="none" stroke="#1C1A17" stroke-width="2"/>
+  <!-- Temps 3 — maîtrise (sommet) : l'unique accent-sceau -->
+  <line x1="340" y1="70" x2="340" y2="228" stroke="#1C1A17" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="340" cy="70" r="14" fill="#C8503C"/>
+  <!-- Sol : une seule ligne d'assise, beaucoup de vide (ma) au-dessus -->
+  <line x1="40" y1="228" x2="360" y2="228" stroke="#1C1A17" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+</svg>

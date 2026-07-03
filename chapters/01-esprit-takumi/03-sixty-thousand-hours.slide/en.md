@@ -3,11 +3,6 @@ title: "60,000 hours"
 description: "The statistic that carries the slide (text-forward, optional origami)."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: concept.
-     Intention: Anecdote 60 000 h & chat origami, text-forward ; la stat en Fraunces porte le slide.
-     Matière source: nouveau (rédaction Story 5.7/5.8/5.9).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 60,000 hours
@@ -22,8 +17,10 @@ description: "The statistic that carries the slide (text-forward, optional origa
 
 ::: slot support
 
-Mastery is measured in years of practice.
+The number of hours it takes, they say, to become a Takumi — nearly thirty years at the workbench.
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+At a luxury-vehicle workshop, candidates are said to fold a paper cat… with their non-dominant hand. The test does not measure speed: it measures patience, and the precision of the gesture.
+
+::muted[Inspired by anecdotes from Japanese craft workshops.]
 
 :::

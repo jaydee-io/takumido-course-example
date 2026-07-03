@@ -62,9 +62,9 @@ Ce détail est ::muted[optionnel].
 
 ## Exemple réel dans ce dépôt
 
-La slide d'ouverture du chapitre 1 (`chapters/01-concepts/01-welcome.slide`) accentue
+La slide « Live guidé vs replay » (`chapters/02-pourquoi/03-live-vs-replay.slide`) accentue
 « temps réel » / « real time » :
 
 ```markdown
-… dispenser des cours interactifs à leurs apprentis en ::accent[temps réel].
+Une session live, synchronisée en ::accent[temps réel].
 ```

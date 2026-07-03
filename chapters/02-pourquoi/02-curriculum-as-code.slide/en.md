@@ -3,11 +3,6 @@ title: "Curriculum-as-code"
 description: "The founding differentiator: the course is a versioned git repo."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: feature.
-     Intention: Différenciateur fondateur ; illustration arbre git.
-     Matière source: chapters/01-concepts/02-anatomy.slide + 04-versioning.slide.
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Curriculum-as-code
@@ -16,14 +11,22 @@ Curriculum-as-code
 
 ::: slot description
 
-A TakumiDô course is a ::accent[git repository] versioned by semver tags — not a proprietary database.
+On most platforms, a course is a row of videos locked inside a proprietary database. At TakumiDô, a course is a ::accent[git repository] — text, versioned, open.
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+- **Versioned** — every course is published under a semver tag (`v1.0.0`). The version an Apprentice sees is exactly the one recorded when the session opened: reproducible, auditable.
+- **Open** — YAML manifests, Markdown content, declarative layouts. No frontend code to write.
+- **Alive** — fixing a typo or adding a chapter is a commit and a tag. Nothing more.
+
+:::
+
+::: slot visual
+
+![Course git tree — a line of commits, one branch, and the published tag marked by the seal-red accent](@slide/assets/curriculum-as-code-git-tree.svg){.image}
 
 :::
 
 ::: slot note
 
-::muted[Illustration: curriculum-as-code git tree (structural, in-house SVG — reused in Ch.4).]
+::muted[Original TakumiDô illustration.]
 
 :::

@@ -22,7 +22,7 @@ slots:
     min: 1
     required: true
   visual:
-    accepts: [image]
+    accepts: [text, image]
     min: 0
     max: 1
     required: false

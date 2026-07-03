@@ -3,11 +3,6 @@ title: "Live guidé vs replay"
 description: "La symétrie porte le sens."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: comparison.
-     Intention: Tableau comparatif live guidé vs replay passif.
-     Matière source: nouveau (rédaction Story 5.7/5.8/5.9).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Live guidé vs replay
@@ -18,7 +13,10 @@ Live guidé vs replay
 
 ## Replay passif
 
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+- Une vidéo, seul face à l'écran
+- Pas de rythme partagé
+- Personne pour adapter la cadence
+- Tu avances… ou tu décroches
 
 :::
 
@@ -26,9 +24,10 @@ Live guidé vs replay
 
 ## Live guidé TakumiDô
 
-Synchronisation temps réel, tempo du formateur, déverrouillage progressif.
-
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+- Une session live, synchronisée en ::accent[temps réel]
+- Le tempo est donné par le ::accent[Formateur]
+- **Play** pour suivre le direct, **Pause** pour explorer à ton rythme
+- Chaque ::accent[Apprenti] garde le fil, sans jamais se perdre
 
 :::
 

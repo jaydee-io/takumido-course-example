@@ -1,5 +1,0 @@
-schema_version: 1
-id: versioning
-layout: takumido-text
-duration_estimate: "3min"
-tags: [versioning, semver, publishing, git]

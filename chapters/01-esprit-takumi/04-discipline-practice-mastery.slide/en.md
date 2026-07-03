@@ -3,11 +3,6 @@ title: "Discipline → practice → mastery"
 description: "The frieze linking the Takumi spirit to the Apprentice/Trainer experience."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: feature.
-     Intention: Frise structurante ; pont vers Apprenti/Formateur.
-     Matière source: nouveau (rédaction Story 5.7/5.8/5.9).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Discipline → practice → mastery
@@ -16,14 +11,24 @@ Discipline → practice → mastery
 
 ::: slot description
 
-The way of the Takumi in three movements.
+The way of the Takumi unfolds in three movements.
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+- **Discipline** — repeat the gesture, even when no one is watching.
+- **Practice** — refine, correct, begin again until the gesture becomes natural.
+- **Mastery** — no longer measure; simply know.
+
+This is exactly what TakumiDô stages: the ::accent[Trainer] shows the way, the ::accent[Apprentice] follows at their own pace, then traces their own.
+
+:::
+
+::: slot visual
+
+![Three-movement frieze — discipline, practice, mastery — rising toward the seal-red accent of mastery](@slide/assets/discipline-practice-mastery.svg){.image}
 
 :::
 
 ::: slot note
 
-::muted[Illustration: discipline → practice → mastery frieze (structural, in-house SVG — see illustration-briefs.md).]
+::muted[Original TakumiDô illustration.]
 
 :::

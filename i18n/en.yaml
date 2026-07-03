@@ -16,10 +16,8 @@ chapters:
   formateur:
     title: "Trainer Side"
     description: "Play/Pause tempo, progress tracking, curriculum-as-code for authors, Coming soon"
-  # Story 5.6: legacy keys kept — migration folders out of the outline (Stories 5.7–5.9).
-  concepts:
-    title: "TakumiDô Concepts"
-    description: "Course structure, slides, and layouts"
+  # Story 5.6: legacy keys kept — migration folders out of the outline (Stories 5.8–5.9).
+  # Story 5.7: `concepts` removed (01-concepts folder migrated into Ch.1+Ch.2, then deleted).
   live-session:
     title: "Live Session"
     description: "Trainer and apprentice roles, Play/Pause, HWM, reconnection"

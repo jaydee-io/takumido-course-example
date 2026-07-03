@@ -3,11 +3,6 @@ title: "The problem with classic platforms"
 description: "An observation, not an attack."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: concept.
-     Intention: Constat neutre sur les plateformes de replay passif.
-     Matière source: nouveau (rédaction Story 5.7/5.8/5.9).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 The problem with classic platforms
@@ -24,6 +19,8 @@ Learning alone, on replay, with no rhythm and no guide.
 
 ::muted[An observation, not an attack.]
 
-> To be written (Story 5.7/5.8/5.9) — planning placeholder.
+Video course platforms have democratized access to knowledge — that is a genuine achievement. But they often leave the learner alone in front of a recording: no shared rhythm, no one to adjust the pace, no live exchange to ask a question.
+
+You keep up, or you drop off. And most often, you drop off.
 
 :::

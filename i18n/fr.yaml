@@ -16,10 +16,8 @@ chapters:
   formateur:
     title: "Côté Formateur"
     description: "Tempo Play/Pause, suivi de progression, curriculum-as-code côté auteur, Bientôt"
-  # Story 5.6: anciennes clés conservées — dossiers de migration hors outline (Stories 5.7–5.9).
-  concepts:
-    title: "Concepts TakumiDô"
-    description: "Structure d'un cours, slides et layouts"
+  # Story 5.6: anciennes clés conservées — dossiers de migration hors outline (Stories 5.8–5.9).
+  # Story 5.7: `concepts` retiré (dossier 01-concepts migré vers Ch.1+Ch.2, puis supprimé).
   live-session:
     title: "Session live"
     description: "Rôles formateur et apprenti, Play/Pause, HWM, reconnexion"

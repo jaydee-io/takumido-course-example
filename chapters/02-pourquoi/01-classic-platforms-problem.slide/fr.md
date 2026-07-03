@@ -3,11 +3,6 @@ title: "Le problème des plateformes classiques"
 description: "Un constat, pas une attaque."
 ---
 
-<!-- SQUELETTE (Story 5.6). Statut: MONTRÉ. Layout: concept.
-     Intention: Constat neutre sur les plateformes de replay passif.
-     Matière source: nouveau (rédaction Story 5.7/5.8/5.9).
-     Rédaction finale: Story 5.7/5.8/5.9 (bulk-draft). -->
-
 ::: slot title
 
 Le problème des plateformes classiques
@@ -24,6 +19,8 @@ Apprendre seul, en replay, sans rythme ni guide.
 
 ::muted[Un constat, pas une attaque.]
 
-> À rédiger (Story 5.7/5.8/5.9) — placeholder de planification.
+Les plateformes de cours en vidéo ont démocratisé l'accès au savoir — c'est une vraie réussite. Mais elles laissent souvent l'apprenant seul face à un enregistrement : pas de rythme partagé, personne pour adapter la cadence, aucun moment vivant où poser une question.
+
+Tu avances, ou tu décroches. Et le plus souvent, tu décroches.
 
 :::
