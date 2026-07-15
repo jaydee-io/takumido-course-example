@@ -27,9 +27,8 @@ background:
 brand:
   accent: "#7C3AED"            # violet — wordmark accent + blinking cursor
   accent-secondary: "#C8503C"  # seal red — title-band bar, secondary accents (5.2+)
-  surface: "rgba(236, 231, 221, 0.6)"  # washi tint, semi-transparent (surface-secondary
-                                       # @ 60%): a visible panel that highlights the
-                                       # cover/closing lockup while the paper shows through.
+  # no `surface` role: the brand block paints no panel (frontend falls back to
+  # `transparent`), so the cover/closing lockup sits directly on the paper texture.
   ink: "#1C1A17"               # wordmark — warm near-black (never #000)
   muted: "#6B6358"             # tagline
 # Per-course palette (Story 5.1): overrides the design-system colour tokens, scoped to
