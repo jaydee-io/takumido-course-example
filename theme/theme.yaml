@@ -27,7 +27,7 @@ background:
 brand:
   accent: "#7C3AED"            # violet — wordmark accent + blinking cursor
   accent-secondary: "#C8503C"  # seal red — title-band bar, secondary accents (5.2+)
-  surface: "#F7F4EE"           # brand block background (blends into the washi slide)
+  surface: "transparent"       # brand block: no panel — the paper texture shows through
   ink: "#1C1A17"               # wordmark — warm near-black (never #000)
   muted: "#6B6358"             # tagline
 # Per-course palette (Story 5.1): overrides the design-system colour tokens, scoped to

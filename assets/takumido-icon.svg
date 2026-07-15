@@ -1,19 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
-    <!-- Per-slide brand watermark (Story 5.2), v1.1.0: the T-chevron rendered as a seal-red
-         stamp pressed (debossed) into the washi paper. Three offset copies build a sunken
-         bevel — a dark red-brown shadow on the upper-left inner wall, an ivory highlight on
-         the lower-right lip, a seal-red core — and a light blur softens the whole thing so
-         the ink reads as if it bled into the paper fibres. The platform paints it small,
+    <!-- Per-slide brand watermark (Story 5.2), v1.1.1: seal-red T-chevron stamped
+         (debossed) into the washi paper. Sunken bevel — dark red-brown shadow upper-left,
+         a light ivory highlight lower-right, seal-red core — with only a whisper of blur so
+         the mark stays legible (v1.1.0 was too soft/faint). The platform paints it small,
          low-opacity, bottom-right (.slide__brand-icon); never on identity layouts. -->
     <defs>
-        <filter id="press" x="-40%" y="-40%" width="180%" height="180%">
-            <feGaussianBlur stdDeviation="2.4"/>
+        <filter id="press" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="1.0"/>
         </filter>
     </defs>
 
     <g filter="url(#press)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20">
-        <!-- highlight: lower-right lip catching the light (sunken) -->
-        <g stroke="#FFFFFF" opacity="0.9" transform="translate(5,6)">
+        <!-- highlight: lower-right lip catching the light (sunken), kept discreet -->
+        <g stroke="#FFFFFF" opacity="0.5" transform="translate(4,5)">
             <line x1="88" y1="69" x2="172" y2="69"/>
             <polyline points="54,96 17,142 54,192"/>
             <line x1="88" y1="119" x2="172" y2="119"/>
@@ -21,7 +20,7 @@
             <polyline points="206,96 243,142 206,192"/>
         </g>
         <!-- shadow: upper-left inner wall in shade -->
-        <g stroke="#6E2A1E" transform="translate(-5,-6)">
+        <g stroke="#6E2A1E" transform="translate(-4,-5)">
             <line x1="88" y1="69" x2="172" y2="69"/>
             <polyline points="54,96 17,142 54,192"/>
             <line x1="88" y1="119" x2="172" y2="119"/>
