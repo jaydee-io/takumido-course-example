@@ -1,39 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
+    <!-- Per-slide brand watermark (Story 5.2), v1.1.0: the T-chevron rendered as a seal-red
+         stamp pressed (debossed) into the washi paper. Three offset copies build a sunken
+         bevel — a dark red-brown shadow on the upper-left inner wall, an ivory highlight on
+         the lower-right lip, a seal-red core — and a light blur softens the whole thing so
+         the ink reads as if it bled into the paper fibres. The platform paints it small,
+         low-opacity, bottom-right (.slide__brand-icon); never on identity layouts. -->
     <defs>
-        <filter id="iconGlow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="2.5" result="blur"/>
-            <feMerge>
-                <feMergeNode in="blur"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
+        <filter id="press" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="2.4"/>
         </filter>
-        <style>
-            .mark {
-                stroke: #5340E0;
-                stroke-width: 22;
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                fill: none;
-            }
-        </style>
     </defs>
 
-    <!-- Square dark badge background with rounded corners -->
-    <rect x="0" y="0" width="260" height="260" rx="32" ry="32" fill="#08080F"/>
-
-    <g filter="url(#iconGlow)">
-        <!-- Top bar — exact same length as the T crossbar -->
-        <line class="mark" x1="88" y1="69" x2="172" y2="69"/>
-
-        <!-- Left chevron -->
-        <polyline class="mark" points="54,96 17,142 54,192"/>
-
-        <!-- T — horizontal bar -->
-        <line class="mark" x1="88" y1="119" x2="172" y2="119"/>
-        <!-- T — vertical stem -->
-        <line class="mark" x1="130" y1="119" x2="130" y2="192"/>
-
-        <!-- Right chevron -->
-        <polyline class="mark" points="206,96 243,142 206,192"/>
+    <g filter="url(#press)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20">
+        <!-- highlight: lower-right lip catching the light (sunken) -->
+        <g stroke="#FFFFFF" opacity="0.9" transform="translate(5,6)">
+            <line x1="88" y1="69" x2="172" y2="69"/>
+            <polyline points="54,96 17,142 54,192"/>
+            <line x1="88" y1="119" x2="172" y2="119"/>
+            <line x1="130" y1="119" x2="130" y2="192"/>
+            <polyline points="206,96 243,142 206,192"/>
+        </g>
+        <!-- shadow: upper-left inner wall in shade -->
+        <g stroke="#6E2A1E" transform="translate(-5,-6)">
+            <line x1="88" y1="69" x2="172" y2="69"/>
+            <polyline points="54,96 17,142 54,192"/>
+            <line x1="88" y1="119" x2="172" y2="119"/>
+            <line x1="130" y1="119" x2="130" y2="192"/>
+            <polyline points="206,96 243,142 206,192"/>
+        </g>
+        <!-- seal-red core -->
+        <g stroke="#C8503C">
+            <line x1="88" y1="69" x2="172" y2="69"/>
+            <polyline points="54,96 17,142 54,192"/>
+            <line x1="88" y1="119" x2="172" y2="119"/>
+            <line x1="130" y1="119" x2="130" y2="192"/>
+            <polyline points="206,96 243,142 206,192"/>
+        </g>
     </g>
 </svg>
