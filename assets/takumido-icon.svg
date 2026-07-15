@@ -6,7 +6,7 @@
          low-opacity, bottom-right (.slide__brand-icon); never on identity layouts. -->
     <defs>
         <filter id="press" x="-30%" y="-30%" width="160%" height="160%">
-            <feGaussianBlur stdDeviation="0.4"/>
+            <feGaussianBlur stdDeviation="0.25"/>
         </filter>
     </defs>
 
