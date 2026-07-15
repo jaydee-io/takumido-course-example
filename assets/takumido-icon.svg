@@ -6,13 +6,14 @@
          low-opacity, bottom-right (.slide__brand-icon); never on identity layouts. -->
     <defs>
         <filter id="press" x="-30%" y="-30%" width="160%" height="160%">
-            <feGaussianBlur stdDeviation="0.15"/>
+            <feGaussianBlur stdDeviation="0.05"/>
         </filter>
     </defs>
 
     <g filter="url(#press)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20">
-        <!-- highlight: lower-right lip catching the light (sunken), kept discreet -->
-        <g stroke="#FFFFFF" opacity="0.5" transform="translate(4,5)">
+        <!-- highlight: lower-right lip catching the light (sunken), a light touch so it
+             gives the pressed feel without washing out the ink -->
+        <g stroke="#FFFFFF" opacity="0.28" transform="translate(3,4)">
             <line x1="88" y1="69" x2="172" y2="69"/>
             <polyline points="54,96 17,142 54,192"/>
             <line x1="88" y1="119" x2="172" y2="119"/>
@@ -20,15 +21,15 @@
             <polyline points="206,96 243,142 206,192"/>
         </g>
         <!-- shadow: upper-left inner wall in shade -->
-        <g stroke="#6E2A1E" transform="translate(-4,-5)">
+        <g stroke="#5E2016" transform="translate(-3,-4)">
             <line x1="88" y1="69" x2="172" y2="69"/>
             <polyline points="54,96 17,142 54,192"/>
             <line x1="88" y1="119" x2="172" y2="119"/>
             <line x1="130" y1="119" x2="130" y2="192"/>
             <polyline points="206,96 243,142 206,192"/>
         </g>
-        <!-- seal-red core -->
-        <g stroke="#C8503C">
+        <!-- seal-red core — a deeper, more saturated vermilion so it doesn't read washed out -->
+        <g stroke="#BF4127">
             <line x1="88" y1="69" x2="172" y2="69"/>
             <polyline points="54,96 17,142 54,192"/>
             <line x1="88" y1="119" x2="172" y2="119"/>
