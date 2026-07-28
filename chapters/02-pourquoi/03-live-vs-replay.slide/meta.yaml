@@ -1,3 +1,4 @@
 schema_version: 1
 id: live-vs-replay
+duration_estimate: "2min"
 layout: comparison

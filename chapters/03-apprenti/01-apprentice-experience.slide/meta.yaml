@@ -1,3 +1,4 @@
 schema_version: 1
 id: apprentice-experience
+duration_estimate: "3min"
 layout: takumido-columns

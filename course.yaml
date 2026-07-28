@@ -2,7 +2,6 @@ schema_version: 1
 id: discover-takumido
 languages: [en, fr]
 default_layout: takumido-text
-duration_estimate: "45min"
 tags: [showcase, tutorial, getting-started]
 outline:
   # Story 5.6: restructured 3 technical chapters → 4 narrative chapters (esprit /

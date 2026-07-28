@@ -1,4 +1,5 @@
 schema_version: 1
 id: course-opening
+duration_estimate: "2min"
 layout: takumido-course-opening
 visible: true

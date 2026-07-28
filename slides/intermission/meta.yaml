@@ -1,5 +1,6 @@
 schema_version: 1
 id: intermission
+duration_estimate: "1min"
 layout: pause
 visible: true
 # Story 5.4: full-screen breather. The seal-red field lives HERE (single source of

@@ -1,4 +1,5 @@
 schema_version: 1
 id: course-closing
+duration_estimate: "1min"
 layout: takumido-course-closing
 visible: true
