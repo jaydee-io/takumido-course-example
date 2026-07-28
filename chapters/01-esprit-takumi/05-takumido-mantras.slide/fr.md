@@ -5,8 +5,6 @@ description: "Quatre mantras figés, alignés sur la voie."
 
 ::: slot body
 
-# Les mantras TakumiDô
-
 - ::accent[De la discipline naît la pratique ; de la pratique, la maîtrise.]
 - Mille fois le même geste, pour qu'il devienne le tien.
 - Le maître ne mesure plus : il sait.

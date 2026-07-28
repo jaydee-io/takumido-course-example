@@ -5,8 +5,6 @@ description: "Four locked mantras, aligned with the way."
 
 ::: slot body
 
-# The TakumiDô mantras
-
 - ::accent[From discipline comes practice; from practice, mastery.]
 - A thousand times the same gesture, until it becomes yours.
 - The master no longer measures: they know.
